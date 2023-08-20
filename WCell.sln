@@ -1,30 +1,30 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCell.AuthServerConsole", "Applications\WCell.AuthServerConsole\WCell.AuthServerConsole.csproj", "{4515099C-386E-4CF2-9441-B683481549DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WCell.AuthServerConsole", "Applications\WCell.AuthServerConsole\WCell.AuthServerConsole.csproj", "{4515099C-386E-4CF2-9441-B683481549DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCell.RealmServerConsole", "Applications\WCell.RealmServerConsole\WCell.RealmServerConsole.csproj", "{A003175E-EA71-49CC-8660-C975BABC9A99}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WCell.RealmServerConsole", "Applications\WCell.RealmServerConsole\WCell.RealmServerConsole.csproj", "{A003175E-EA71-49CC-8660-C975BABC9A99}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCell.AuthServer", "Services\WCell.AuthServer\WCell.AuthServer.csproj", "{926BA681-C960-45D7-B02A-CA9AE2B80C4B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WCell.AuthServer", "Services\WCell.AuthServer\WCell.AuthServer.csproj", "{926BA681-C960-45D7-B02A-CA9AE2B80C4B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCell.RealmServer", "Services\WCell.RealmServer\WCell.RealmServer.csproj", "{A38FAA6D-86B5-4429-85D0-BC93EB5E2C56}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WCell.RealmServer", "Services\WCell.RealmServer\WCell.RealmServer.csproj", "{A38FAA6D-86B5-4429-85D0-BC93EB5E2C56}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCell.PacketAnalyzer", "Utilities\WCell.PacketAnalyzer\WCell.PacketAnalyzer.csproj", "{65B2B094-13BB-4685-95AD-402FC9A4473A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WCell.PacketAnalyzer", "Utilities\WCell.PacketAnalyzer\WCell.PacketAnalyzer.csproj", "{65B2B094-13BB-4685-95AD-402FC9A4473A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCell.Tools", "Utilities\WCell.Tools\WCell.Tools.csproj", "{99463C8A-1598-4715-A390-A1B7E7FEDA2E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WCell.Tools", "Utilities\WCell.Tools\WCell.Tools.csproj", "{99463C8A-1598-4715-A390-A1B7E7FEDA2E}"
 	ProjectSection(ProjectDependencies) = postProject
 		{A38FAA6D-86B5-4429-85D0-BC93EB5E2C56} = {A38FAA6D-86B5-4429-85D0-BC93EB5E2C56}
 		{38846B91-92C5-4ED0-A77C-5480FA06EDBE} = {38846B91-92C5-4ED0-A77C-5480FA06EDBE}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCell.SolutionItems", "Utilities\WCell.SolutionItems\WCell.SolutionItems.csproj", "{08E1A2AF-DF71-42C1-8375-D4AF278E068A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WCell.SolutionItems", "Utilities\WCell.SolutionItems\WCell.SolutionItems.csproj", "{08E1A2AF-DF71-42C1-8375-D4AF278E068A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cell.Core", "Core\Cell.Core\Cell.Core.csproj", "{71AB07AD-4D94-4693-8560-47862E5B6E61}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cell.Core", "Core\Cell.Core\Cell.Core.csproj", "{71AB07AD-4D94-4693-8560-47862E5B6E61}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCell.Core", "Core\WCell.Core\WCell.Core.csproj", "{EEA9DEB6-8EA6-46F1-B1B7-AB38D8BBCA6C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WCell.Core", "Core\WCell.Core\WCell.Core.csproj", "{EEA9DEB6-8EA6-46F1-B1B7-AB38D8BBCA6C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCell.Intercommunication", "Core\WCell.Intercommunication\WCell.Intercommunication.csproj", "{5997613F-D2A5-4B86-BEE2-C823BC07D5AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WCell.Intercommunication", "Core\WCell.Intercommunication\WCell.Intercommunication.csproj", "{5997613F-D2A5-4B86-BEE2-C823BC07D5AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCell.PostBuild", "Utilities\WCell.PostBuild\WCell.PostBuild.csproj", "{7D8696B9-80E3-4E28-8D70-27B1534A66FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WCell.PostBuild", "Utilities\WCell.PostBuild\WCell.PostBuild.csproj", "{7D8696B9-80E3-4E28-8D70-27B1534A66FA}"
 	ProjectSection(ProjectDependencies) = postProject
 		{5F96293A-1276-4515-8048-EBC49CD81D71} = {5F96293A-1276-4515-8048-EBC49CD81D71}
 		{A003175E-EA71-49CC-8660-C975BABC9A99} = {A003175E-EA71-49CC-8660-C975BABC9A99}
@@ -34,13 +34,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCell.PostBuild", "Utilitie
 		{08E1A2AF-DF71-42C1-8375-D4AF278E068A} = {08E1A2AF-DF71-42C1-8375-D4AF278E068A}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCell.DefaultAddon", "Addons\WCell.DefaultAddon\WCell.DefaultAddon.csproj", "{38846B91-92C5-4ED0-A77C-5480FA06EDBE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WCell.DefaultAddon", "Addons\WCell.DefaultAddon\WCell.DefaultAddon.csproj", "{38846B91-92C5-4ED0-A77C-5480FA06EDBE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCell.Constants", "Core\WCell.Constants\WCell.Constants.csproj", "{42F497A4-0347-491D-8FA8-50E4D8AD19EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WCell.Constants", "Core\WCell.Constants\WCell.Constants.csproj", "{42F497A4-0347-491D-8FA8-50E4D8AD19EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCell.Util", "Utilities\WCell.Util\WCell.Util.csproj", "{F753AF28-A251-4C12-9335-07E8236184F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WCell.Util", "Utilities\WCell.Util\WCell.Util.csproj", "{F753AF28-A251-4C12-9335-07E8236184F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCell.MPQTool", "Utilities\WCell.MPQTool\WCell.MPQTool.csproj", "{5F96293A-1276-4515-8048-EBC49CD81D71}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WCell.MPQTool", "Utilities\WCell.MPQTool\WCell.MPQTool.csproj", "{5F96293A-1276-4515-8048-EBC49CD81D71}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Servers", "Servers", "{60BC37D8-E1E8-460D-BE36-DD66C21E42BE}"
 EndProject
@@ -170,7 +170,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Packets", "Packets", "{D18C
 		Run\Content\Packets\World.xml = Run\Content\Packets\World.xml
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCell.PerformanceCounterInstaller", "WCell.PerformanceCounterInstaller\WCell.PerformanceCounterInstaller.csproj", "{33CF6371-AC7C-4245-AF3A-42C2DA34002D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WCell.PerformanceCounterInstaller", "WCell.PerformanceCounterInstaller\WCell.PerformanceCounterInstaller.csproj", "{33CF6371-AC7C-4245-AF3A-42C2DA34002D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

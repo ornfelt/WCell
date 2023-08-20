@@ -29,6 +29,9 @@ using WCell.Core.Cryptography;
 using WCell.Intercommunication;
 using WCell.Intercommunication.DataTypes;
 using resources = WCell.AuthServer.Res.WCell_AuthServer;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
 
 namespace WCell.AuthServer.IPC
 {
@@ -39,7 +42,7 @@ namespace WCell.AuthServer.IPC
     /// Most methods require to be executed from a remote IPC channel and are often
     /// only valid from a registered Realm.
     /// </summary>
-    [ServiceBehavior(InstanceContextMode = InstanceContextMode.PerSession, IncludeExceptionDetailInFaults = true)]
+    //[ServiceBehavior(InstanceContextMode = InstanceContextMode.PerSession, IncludeExceptionDetailInFaults = true)]
 	public class IPCServiceAdapter : IWCellIntercomService
     {
         private static readonly Logger log = LogManager.GetCurrentClassLogger();

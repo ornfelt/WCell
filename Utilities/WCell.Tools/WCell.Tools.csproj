@@ -1,17 +1,7 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>9.0.30729</ProductVersion>
-    <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{99463C8A-1598-4715-A390-A1B7E7FEDA2E}</ProjectGuid>
+    <TargetFramework>net7.0-windows</TargetFramework>
     <OutputType>Exe</OutputType>
-    <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>WCell.Tools</RootNamespace>
-    <AssemblyName>WCell.Tools</AssemblyName>
-    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
-    <FileAlignment>512</FileAlignment>
     <SccProjectName>
     </SccProjectName>
     <SccLocalPath>
@@ -35,197 +25,75 @@
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
-    <SignAssembly>false</SignAssembly>
-    <FileUpgradeFlags>
-    </FileUpgradeFlags>
-    <OldToolsVersion>3.5</OldToolsVersion>
-    <UpgradeBackupLocation />
-    <TargetFrameworkProfile />
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <DebugSymbols>true</DebugSymbols>
-    <DebugType>full</DebugType>
-    <Optimize>false</Optimize>
     <OutputPath>..\..\Run\Debug\</OutputPath>
-    <DefineConstants>TRACE;DEBUG</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <NoWarn>1591,1587,1570,1573,1572</NoWarn>
     <DocumentationFile>..\..\Run\Debug\WCell.Tools.xml</DocumentationFile>
-    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <DebugType>pdbonly</DebugType>
-    <Optimize>true</Optimize>
     <OutputPath>..\..\Run\Release\</OutputPath>
     <DefineConstants>
     </DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <UseVSHostingProcess>true</UseVSHostingProcess>
-    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
-    <DebugSymbols>true</DebugSymbols>
     <OutputPath>..\..\Run\Debug\</OutputPath>
-    <DefineConstants>TRACE;DEBUG</DefineConstants>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
-    <DebugType>full</DebugType>
-    <PlatformTarget>x86</PlatformTarget>
-    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
-    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
-    <ErrorReport>prompt</ErrorReport>
     <NoWarn>1591,1587,1570,1573,1572</NoWarn>
     <DocumentationFile>..\..\Run\Debug\WCell.Tools.xml</DocumentationFile>
-    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
     <OutputPath>..\..\Run\Release\</OutputPath>
     <DefineConstants>
     </DefineConstants>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
-    <Optimize>true</Optimize>
-    <DebugType>pdbonly</DebugType>
-    <PlatformTarget>x86</PlatformTarget>
-    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
-    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
-    <ErrorReport>prompt</ErrorReport>
-    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
-    <DebugSymbols>true</DebugSymbols>
     <OutputPath>..\..\Run\Debug\</OutputPath>
-    <DefineConstants>TRACE;DEBUG</DefineConstants>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
-    <DebugType>full</DebugType>
-    <PlatformTarget>x64</PlatformTarget>
-    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
-    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
-    <ErrorReport>prompt</ErrorReport>
     <NoWarn>1591,1587,1570,1573,1572</NoWarn>
     <DocumentationFile>..\..\Run\Debug\WCell.Tools.xml</DocumentationFile>
-    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
     <OutputPath>..\..\Run\Release\</OutputPath>
     <DefineConstants>
     </DefineConstants>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
-    <Optimize>true</Optimize>
-    <DebugType>pdbonly</DebugType>
-    <PlatformTarget>x64</PlatformTarget>
-    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
-    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
-    <ErrorReport>prompt</ErrorReport>
-    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|Itanium' ">
-    <DebugSymbols>true</DebugSymbols>
     <OutputPath>..\..\Run\Debug\</OutputPath>
-    <DefineConstants>TRACE;DEBUG</DefineConstants>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
-    <DebugType>full</DebugType>
     <PlatformTarget>Itanium</PlatformTarget>
-    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
-    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
-    <ErrorReport>prompt</ErrorReport>
     <NoWarn>1591,1587,1570,1573,1572</NoWarn>
     <DocumentationFile>..\..\Run\Debug\WCell.Tools.xml</DocumentationFile>
-    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|Itanium' ">
     <OutputPath>..\..\Run\Release\</OutputPath>
     <DefineConstants>
     </DefineConstants>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
-    <Optimize>true</Optimize>
-    <DebugType>pdbonly</DebugType>
     <PlatformTarget>Itanium</PlatformTarget>
-    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
-    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
-    <ErrorReport>prompt</ErrorReport>
-    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationIcon>wcell_tool_icon.ico</ApplicationIcon>
+    <AssemblyTitle>WCell Tools</AssemblyTitle>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Castle.ActiveRecord, Version=2.1.2.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\Libraries\Binaries\Castle.ActiveRecord\Castle.ActiveRecord.dll</HintPath>
-    </Reference>
-    <Reference Include="ICSharpCode.SharpZipLib, Version=0.85.5.452, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\Libraries\Binaries\Release\ICSharpCode\ICSharpCode.SharpZipLib.dll</HintPath>
-    </Reference>
-    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\Libraries\Binaries\Release\log4net\log4net.dll</HintPath>
-    </Reference>
-    <Reference Include="MySql.Data, Version=5.0.8.1, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\Libraries\Binaries\Release\MySql\MySql.Data.dll</HintPath>
-    </Reference>
-    <Reference Include="NLog, Version=1.0.0.505, Culture=neutral, PublicKeyToken=04f2a0efba3ae860, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\Libraries\Source\NLog\bin\Debug\NLog.dll</HintPath>
-    </Reference>
-    <Reference Include="System" />
-    <Reference Include="System.Core">
+    <Reference Update="System.Core">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
     </Reference>
-    <Reference Include="System.Xml.Linq">
+    <Reference Update="System.Xml.Linq">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
     </Reference>
-    <Reference Include="System.Data.DataSetExtensions">
-      <RequiredTargetFramework>3.5</RequiredTargetFramework>
-    </Reference>
-    <Reference Include="System.Data" />
-    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="..\..\Utilities\WCell.SolutionItems\SolutionInfo.cs">
       <Link>Properties\SolutionInfo.cs</Link>
     </Compile>
-    <Compile Include="Commands\DBCCommand.cs" />
-    <Compile Include="Commands\PacketAnalyzerCommand.cs" />
-    <Compile Include="Commands\PepsiFactionStudiesCommand.cs" />
-    <Compile Include="Commands\RalekSpellStudiesCommand.cs" />
-    <Compile Include="Commands\ToolCommandHandler.cs" />
-    <Compile Include="Commands\LocaleCommand.cs" />
-    <Compile Include="Commands\WPCommands.cs" />
-    <Compile Include="Domi\Instances.cs" />
-    <Compile Include="Domi\Output\ATOutput.cs" />
-    <Compile Include="Domi\Output\QuestOutput.cs" />
-    <Compile Include="Commands\DumpCommands.cs" />
-    <Compile Include="Domi\WCellEnumWriter.cs" />
-    <Compile Include="Domi\Output\ClassesRaces.cs" />
-    <Compile Include="Domi\Output\GOOutput.cs" />
-    <Compile Include="Domi\Output\ItemOutput.cs" />
-    <Compile Include="Domi\Output\MiscOutput.cs" />
-    <Compile Include="Domi\Output\NPCOutput.cs" />
-    <Compile Include="Domi\Output\TalentOutput.cs" />
-    <Compile Include="Misc\LineConverter.cs" />
-    <Compile Include="Mokrago\CombatRatingsOutput.cs" />
-    <Compile Include="Pepsi\FactionStudies.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Spells\SpellEffectCreator.cs" />
-    <Compile Include="Domi\Output\SkillOutput.cs" />
-    <Compile Include="Domi\Output\SpellOutput.cs" />
-    <Compile Include="Spells\SpellFocusObject.DBC.cs" />
-    <Compile Include="Domi\WorldMapOverlay.DBC.cs" />
-    <Compile Include="PATools\PATool.cs" />
-    <Compile Include="Ralek\SpellStudies.cs" />
-    <Compile Include="Spells\SpellLineWriter.cs" />
-    <Compile Include="ToolConfig.cs" />
-    <Compile Include="Tools.cs" />
-    <Compile Include="Domi\VariablePurifier.cs" />
-    <Compile Include="Ralek\Extensions.cs" />
-    <Compile Include="Ralek\Utility\CodeTimers.cs" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
@@ -250,60 +118,48 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Core\Cell.Core\Cell.Core.csproj">
-      <Project>{71AB07AD-4D94-4693-8560-47862E5B6E61}</Project>
-      <Name>Cell.Core</Name>
-      <Private>False</Private>
-    </ProjectReference>
-    <ProjectReference Include="..\..\Core\WCell.Constants\WCell.Constants.csproj">
-      <Project>{42F497A4-0347-491D-8FA8-50E4D8AD19EB}</Project>
-      <Name>WCell.Constants</Name>
-      <Private>False</Private>
-    </ProjectReference>
-    <ProjectReference Include="..\..\Core\WCell.Core\WCell.Core.csproj">
-      <Project>{EEA9DEB6-8EA6-46F1-B1B7-AB38D8BBCA6C}</Project>
-      <Name>WCell.Core</Name>
-      <Private>False</Private>
-    </ProjectReference>
-    <ProjectReference Include="..\..\Core\WCell.Intercommunication\WCell.Intercommunication.csproj">
-      <Project>{5997613F-D2A5-4B86-BEE2-C823BC07D5AF}</Project>
-      <Name>WCell.Intercommunication</Name>
-      <Private>False</Private>
-    </ProjectReference>
-    <ProjectReference Include="..\..\Services\WCell.RealmServer\WCell.RealmServer.csproj">
-      <Project>{A38FAA6D-86B5-4429-85D0-BC93EB5E2C56}</Project>
-      <Name>WCell.RealmServer</Name>
-      <Private>False</Private>
-    </ProjectReference>
-    <ProjectReference Include="..\WCell.MPQTool\WCell.MPQTool.csproj">
-      <Project>{5F96293A-1276-4515-8048-EBC49CD81D71}</Project>
-      <Name>WCell.MPQTool</Name>
-      <Private>False</Private>
-    </ProjectReference>
-    <ProjectReference Include="..\WCell.PacketAnalyzer\WCell.PacketAnalyzer.csproj">
-      <Project>{65B2B094-13BB-4685-95AD-402FC9A4473A}</Project>
-      <Name>WCell.PacketAnalyzer</Name>
-      <Private>False</Private>
-    </ProjectReference>
-    <ProjectReference Include="..\WCell.Util\WCell.Util.csproj">
-      <Project>{F753AF28-A251-4C12-9335-07E8236184F2}</Project>
-      <Name>WCell.Util</Name>
-      <Private>False</Private>
-    </ProjectReference>
+    <ProjectReference Include="..\..\Core\Cell.Core\Cell.Core.csproj" />
+    <ProjectReference Include="..\..\Core\WCell.Constants\WCell.Constants.csproj" />
+    <ProjectReference Include="..\..\Core\WCell.Core\WCell.Core.csproj" />
+    <ProjectReference Include="..\..\Core\WCell.Intercommunication\WCell.Intercommunication.csproj" />
+    <ProjectReference Include="..\..\Services\WCell.RealmServer\WCell.RealmServer.csproj" />
+    <ProjectReference Include="..\WCell.MPQTool\WCell.MPQTool.csproj" />
+    <ProjectReference Include="..\WCell.PacketAnalyzer\WCell.PacketAnalyzer.csproj" />
+    <ProjectReference Include="..\WCell.Util\WCell.Util.csproj" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="wcell_tool_icon.ico" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="app.config" />
-    <None Include="WCellToolsClassDiagram.cd" />
+    <PackageReference Include="Castle.Activerecord" Version="3.0.0.1" />
+    <PackageReference Include="CoreWCF.ConfigurationManager" Version="1.3.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Hosting" Version="2.2.7" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="7.0.0" />
+    <PackageReference Include="NHibernate" Version="5.4.5" />
+    <PackageReference Include="NLog" Version="5.2.3" />
+    <PackageReference Include="NLog.Extensions.Logging" Version="5.3.3" />
+    <PackageReference Include="NLog.Targets.Http" Version="1.0.20" />
+    <PackageReference Include="NLog.Targets.Syslog" Version="7.0.0" />
+    <PackageReference Include="NLog.Web" Version="5.3.3" />
+    <PackageReference Include="NLog.Web.AspNetCore" Version="5.3.3" />
+    <PackageReference Include="NLog.WindowsEventLog" Version="5.2.3" />
+    <PackageReference Include="SharpZipLib" Version="1.4.2" />
+    <PackageReference Include="System.Data.DataSetExtensions" Version="4.5.0" />
+    <PackageReference Include="System.Diagnostics.PerformanceCounter" Version="7.0.0" />
   </ItemGroup>
-  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
-       Other similar extension points exist, see Microsoft.Common.targets.
-  <Target Name="BeforeBuild">
-  </Target>
-  <Target Name="AfterBuild">
-  </Target>
-  -->
+  <ItemGroup>
+    <Compile Remove="Commands\GODumpCommand.cs" />
+    <Compile Remove="Domi\Connected\Setup.cs" />
+    <Compile Remove="Domi\DBCEnumBuilder.cs" />
+    <Compile Remove="Domi\FileCreators\AuraCreator.cs" />
+    <Compile Remove="Domi\FileCreators\GOCreator.cs" />
+    <Compile Remove="Domi\Output\SkillTests.cs" />
+    <Compile Remove="FileCreators\AuraCreator.cs" />
+    <Compile Remove="FileCreators\ExperienceClassCreator.cs" />
+    <Compile Remove="FileCreators\GOCreator.cs" />
+    <Compile Remove="FileCreators\UpdateFieldWriter.cs" />
+    <Compile Remove="Program.cs" />
+    <Compile Remove="Versions\UpdateCommand.cs" />
+    <Compile Remove="Versions\VersionUpdater.cs" />
+  </ItemGroup>
 </Project>

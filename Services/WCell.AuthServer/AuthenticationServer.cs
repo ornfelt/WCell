@@ -373,15 +373,21 @@ namespace WCell.AuthServer
 		/// </summary>
 		public override void Start()
 		{
+			Console.WriteLine("Start CALLED");
 			base.Start();
+			Console.WriteLine("Start2 CALLED");
 			if (_running)
 			{
 				try
 				{
+			Console.WriteLine("Start3 CALLED");
 					IPCServiceHost.StartService();
+			Console.WriteLine("Start4 CALLED");
 				}
-				catch (AddressAlreadyInUseException)
+				//catch (AddressAlreadyInUseException)
+				catch (System.ServiceModel.FaultException)
 				{
+			Console.WriteLine("Start5 CALLED");
 					Log.Fatal(resources.AuthServiceAlreadyListening);
 					Stop();
 				}

@@ -88,8 +88,10 @@ namespace WCell.Core
 
 				var thisProcess = Process.GetCurrentProcess();
 
+                #pragma warning disable CA1416
 				CPUPerfCounter = new PerformanceCounter("Process", "% Processor Time", thisProcess.ProcessName);
 				MemPerfCounter = new PerformanceCounter("Process", "Private Bytes", thisProcess.ProcessName);
+				#pragma warning restore CA1416
 
 				m_statTimer = new Timer(OnTick);
 			}
@@ -161,8 +163,10 @@ namespace WCell.Core
 			m_lastBytesReceived = totalBytesRcvd;
 
 
+			#pragma warning disable CA1416
 			var cpuUsage = CPUPerfCounter.NextValue();
 			var memUsage = MemPerfCounter.NextValue();
+			#pragma warning restore CA1416
 
 			statLines.Add(string.Format("+ CPU Usage: {0:0.00}% <-> Memory Usage: {1}", cpuUsage, WCellUtil.FormatBytes(memUsage)));
 			statLines.Add(string.Format("+ Upload: Total {0} - Avg {1}/s - Current {2}/s",

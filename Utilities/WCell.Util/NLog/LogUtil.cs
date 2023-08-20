@@ -4,7 +4,8 @@ using System.IO;
 using System.Threading;
 using NLog;
 using NLog.Config;
-using NLog.Win32.Targets;
+//using NLog.Win32.Targets;
+using NLog.Targets;
 
 namespace WCell.Util.NLog
 {
@@ -187,7 +188,8 @@ namespace WCell.Util.NLog
 
 		public static void LogStacktrace(Action<string> logger)
 		{
-			logger(new StackTrace(Thread.CurrentThread, true).GetFrames().ToString("\n\t", frame => frame.ToString().Trim()));
+			//logger(new StackTrace(Thread.CurrentThread, true).GetFrames().ToString("\n\t", frame => frame.ToString().Trim()));
+			logger(new StackTrace().GetFrames().ToString("\n\t", frame => frame.ToString().Trim()));
 		}
 
 		private static void LogSystemInfo(Action<string> logger)

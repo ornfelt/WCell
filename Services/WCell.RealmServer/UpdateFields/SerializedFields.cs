@@ -55,7 +55,9 @@ namespace WCell.RealmServer.UpdateFields
 			SerializedFields sUpdates = new SerializedFields();
 			sUpdates.SetValues(obj);
 
+            #pragma warning disable SYSLIB0011
 			bFormatter.Serialize(outputStream, sUpdates);
+            #pragma warning restore SYSLIB0011
 
 			return outputStream.ToArray();
 		}
@@ -67,7 +69,9 @@ namespace WCell.RealmServer.UpdateFields
 
 			SerializedFields sUpdates;
 
+            #pragma warning disable SYSLIB0011
 			sUpdates = (SerializedFields)bFormatter.Deserialize(inputStream);
+            #pragma warning restore SYSLIB0011
 
 			return sUpdates.Values;
 		}

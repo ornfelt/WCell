@@ -268,16 +268,21 @@ namespace WCell.Core.Initialization
         {
             m_newSteps = false;
 
+			Console.WriteLine("PerformInit CALLED");
             // Go through every pass level
             foreach (InitializationPass pass in Enum.GetValues(typeof(InitializationPass)))
             {
 				if (GetStepCount(pass) > 0)
 				{
+                    Console.WriteLine("PerformInit loop CALLED");
 					// Execute steps of pass, if there are any
                     m_currentPass = pass;
+                    Console.WriteLine("Executing pass: " + pass);
                     s_log.Info(string.Format(Resources.InitPass, (int)m_currentPass));
+                    Console.WriteLine("Executing pass2: " + pass);
 					if (!Execute(pass))
                     {
+                        Console.WriteLine("Failed to execute pass: " + pass);
                         return false;
                     }
                 }
@@ -294,12 +299,14 @@ namespace WCell.Core.Initialization
 
             foreach (var step in currentSteps)
             {
+                Console.WriteLine("Executing step: " + step);
                 if (step.Executed)
                 {
                     continue;
                 }
                 if (!Execute(step))
                 {
+                    Console.WriteLine("Failed executing step " + step);
                     return false;
                 }
             }
@@ -310,6 +317,7 @@ namespace WCell.Core.Initialization
                 m_newSteps = false;
 				for (var previousPass = InitializationPass.First; previousPass <= m_currentPass; previousPass++)
                 {
+                    Console.WriteLine("Executing pass in loop: " + previousPass);
 					Execute(previousPass);
                 }
             }
@@ -330,7 +338,9 @@ namespace WCell.Core.Initialization
             try
             {
                 // Invoke the method and capture its return value
+                Console.WriteLine("Executing init step: " + step.ToString());
                 var result = step.InitMethod.Invoke(null, args);
+                Console.WriteLine("Executing init step2: " + step.ToString());
 
                 if ((result is bool) && !(bool)result)
                 {

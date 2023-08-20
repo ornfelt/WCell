@@ -54,7 +54,8 @@ namespace WCell.RealmServer.Content
 
 		public IDataReader CreateReader(TableDefinition def, int tableIndex)
 		{
-			return m_session.Batcher.ExecuteReader(m_selectCommands[tableIndex]);
+			//return m_session.Batcher.ExecuteReader(m_selectCommands[tableIndex]);
+			return m_session.Batcher.ExecuteReader(m_selectCommands[tableIndex] as System.Data.Common.DbCommand);
 		}
 
 		public IDataReader Query(string query)
@@ -92,7 +93,7 @@ namespace WCell.RealmServer.Content
 		public void ExecuteComand(string sql)
 		{
 			var cmd = CreateCommand(sql);
-			m_session.Batcher.ExecuteNonQuery(cmd);
+			m_session.Batcher.ExecuteNonQuery(cmd as System.Data.Common.DbCommand);
 		}
 
         /// <summary>

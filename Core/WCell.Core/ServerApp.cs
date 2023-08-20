@@ -245,9 +245,11 @@ namespace WCell.Core
 				return;
 			}
 
+            Console.WriteLine("Base Start CALLED");
 			if (InitMgr.PerformInitialization())
 			{
-				var address = Utility.ParseOrResolve(Host);
+                Console.WriteLine("Base Start1 CALLED");
+                var address = Utility.ParseOrResolve(Host);
 
 				_tcpEndpoint = new IPEndPoint(address, Port);
 
@@ -259,6 +261,7 @@ namespace WCell.Core
 					Stop();
 					return;
 				}
+                Console.WriteLine("Base Start2 CALLED");
 
 				Log.Info("Server started - Max Working Set Size: {0}", Process.GetCurrentProcess().MaxWorkingSet);
 				//GC.Collect(2, GCCollectionMode.Optimized);
@@ -269,6 +272,7 @@ namespace WCell.Core
 				{
 					evt();
 				}
+                Console.WriteLine("Base Start3 CALLED");
 			}
 			else
 			{

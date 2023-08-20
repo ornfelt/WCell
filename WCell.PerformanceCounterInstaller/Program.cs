@@ -14,6 +14,7 @@ namespace WCell.PerformanceCounterInstaller
 
         public static void SetupCounters()
         {
+            #pragma warning disable CA1416
             var counterList = new CounterCreationDataCollection();
 
             var sentPacketCounter = new CounterCreationData
@@ -63,6 +64,7 @@ namespace WCell.PerformanceCounterInstaller
                                                   PerformanceCounterCategoryType.SingleInstance,
                                                   counterList);
             }
+        #pragma warning restore CA1416
         }
     }
 }

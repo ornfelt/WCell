@@ -560,10 +560,10 @@ namespace WCell.Util
 
 
 		#region Other
-		public override ObjRef CreateObjRef(Type requestedType)
-		{
-			return m_writer.CreateObjRef(requestedType);
-		}
+		//public override ObjRef CreateObjRef(Type requestedType)
+		//{
+		//	return m_writer.CreateObjRef(requestedType);
+		//}
 
 		public override bool Equals(object obj)
 		{

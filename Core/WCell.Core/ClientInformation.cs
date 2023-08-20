@@ -192,7 +192,9 @@ namespace WCell.Core
             {
                 var bFormatter = new BinaryFormatter();
 
+				#pragma warning disable SYSLIB0011
                 bFormatter.Serialize(memStream, clientInfo);
+				#pragma warning restore SYSLIB0011
                 memStreamArray = memStream.ToArray();
             }
 		    return memStreamArray;
@@ -210,7 +212,9 @@ namespace WCell.Core
             {
                 var bFormatter = new BinaryFormatter();
 
+				#pragma warning disable SYSLIB0011
                 sInfo = (ClientInformation) bFormatter.Deserialize(memStream);
+				#pragma warning restore SYSLIB0011
             }
 
 		    return sInfo;
