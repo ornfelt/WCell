@@ -15,6 +15,7 @@ TestResults/*
 Utilities/WCell.SolutionItems/bin/*
 Addons/.gitignore
 build/
+.vs/
 
 Addons/GossipMenus/bin
 wcelladdon/
