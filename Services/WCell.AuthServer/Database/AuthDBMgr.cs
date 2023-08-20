@@ -25,6 +25,7 @@ namespace WCell.AuthServer.Database
 
 			DatabaseUtil.DBType = AuthServerConfiguration.DBType;
 			DatabaseUtil.ConnectionString = AuthServerConfiguration.DBConnectionString;
+			//DatabaseUtil.ConnectionString = @"Server=127.0.0.1;Port=3306;Database=WCellAuthServer;CharSet=utf8;Uid=wcell;Pwd=wcell;SslMode=none;";
 			DatabaseUtil.DefaultCharset = DefaultCharset;
 
 			var asm = typeof(AuthDBMgr).Assembly;

@@ -193,7 +193,7 @@ namespace WCell.RealmServer
 		/// </summary>
 		public static int Port = 8085;
 
-		private static string _realmName = "Change the RealmName in the Config!";
+		private static string _realmName = "wcell_realm";
 
 		/// <summary>
 		/// The name of this server
@@ -335,9 +335,10 @@ namespace WCell.RealmServer
 		/// <summary>
 		/// The type of database we're connecting to. (e.g. MySQL, mssql2005, Oracle, etc)
 		/// </summary>
-		public static string DatabaseType = "mysql5";
+		//public static string DatabaseType = "mysql5";
+		public static string DatabaseType = "mysql8";
 
-		private static string _dbConnectionString = @"Server=127.0.0.1;Port=3306;Database=WCellRealmServer;CharSet=utf8;Uid=root;Pwd=;";
+		private static string _dbConnectionString = @"Server=127.0.0.1;Port=3306;Database=wcell_realm;CharSet=utf8;Uid=wcell;Pwd=wcell;";
 
 		/// <summary>
 		/// The connection string for the authentication server database.

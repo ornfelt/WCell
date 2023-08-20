@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="WCell.Tools.Commands.DBCCommand" Collapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\DBCCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Tools.Commands.DumpCommand" Collapsed="true">
+    <Position X="2.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAACAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\DumpCommands.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Tools.Commands.LocaleCommand" Collapsed="true">
+    <Position X="5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\LocaleCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Tools.Commands.PacketAnalyzerCommand" Collapsed="true">
+    <Position X="7.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\PacketAnalyzerCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Tools.Commands.PepsiFactionStudiesCommand" Collapsed="true">
+    <Position X="11.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\PepsiFactionStudiesCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Tools.Commands.RalekSpellStudiesCommand" Collapsed="true">
+    <Position X="14" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\RalekSpellStudiesCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Tools.Commands.ToolCommandHandler" Collapsed="true">
+    <Position X="18.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAQAAAAAACAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Commands\ToolCommandHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Tools.Commands.ToolCmdTrigger" Collapsed="true">
+    <Position X="16.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\ToolCommandHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Tools.Commands.ToolCmdArgs" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="25.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\ToolCommandHandler.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WCell.Tools.Commands.ToolCommand" Collapsed="true">
+    <Position X="7.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>Commands\ToolCommandHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Tools.Commands.WPCommand" Collapsed="true">
+    <Position X="9.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\WPCommands.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Tools.Domi.Instances" Collapsed="true">
+    <Position X="16.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domi\Instances.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Tools.Domi.WCellEnumWriter" Collapsed="true">
+    <Position X="25.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EIAAAgIAAZgAAAAgAAAAgQAAAAEAESAICEACgmggYAA=</HashCode>
+      <FileName>Domi\WCellEnumWriter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Tools.Domi.Output.ATOutput" Collapsed="true">
+    <Position X="16.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKAAAAAAA=</HashCode>
+      <FileName>Domi\Output\ATOutput.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Tools.Domi.Output.GOOutput" Collapsed="true">
+    <Position X="25.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAECAAACAAAAAAAAAAAABAAAAAAAEAAAACBUEAAAA=</HashCode>
+      <FileName>Domi\Output\GOOutput.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Tools.Domi.Output.ItemOutput" Collapsed="true">
+    <Position X="18.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAQAAAAAAAAAAAAAgAAAAAAQAACAAAAAAA=</HashCode>
+      <FileName>Domi\Output\ItemOutput.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Tools.Domi.Output.MiscOutput" Collapsed="true">
+    <Position X="21.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domi\Output\MiscOutput.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Tools.Domi.Output.NPCOutput" Collapsed="true">
+    <Position X="25.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAEAAAoAAAAAAAAAAAAAAAAECAECCAAAAAAAAAAAA=</HashCode>
+      <FileName>Domi\Output\NPCOutput.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Tools.Domi.Output.QuestOutput" Collapsed="true">
+    <Position X="18.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAgAAAAAAAAAAAAAAAAAAAgAAEAACAAAAAA=</HashCode>
+      <FileName>Domi\Output\QuestOutput.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Tools.Domi.Output.SkillOutput" Collapsed="true">
+    <Position X="20" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAQAAABAAABAAgAAAAAAAAAA=</HashCode>
+      <FileName>Domi\Output\SkillOutput.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Tools.Domi.Output.SpellOutput" Collapsed="true">
+    <Position X="18.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAUCCAAEgAACCAgAAAAgBIgEASIDAEAIgCAASAIgA=</HashCode>
+      <FileName>Domi\Output\SpellOutput.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Tools.Domi.Output.TalentOutput" Collapsed="true">
+    <Position X="23.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domi\Output\TalentOutput.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Tools.VariablePurifier" Collapsed="true">
+    <Position X="23.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAgAAAAAAAAAAAAAAAAAEAAAARgAAAAAAQAAAAAgAA=</HashCode>
+      <FileName>Domi\VariablePurifier.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Tools.ToolConfig" Collapsed="true">
+    <Position X="20" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASiAAAAAAEgQBCAAAiwITgECCUhgkgBAQAUwAAAACgA=</HashCode>
+      <FileName>ToolConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Tools.Tools" Collapsed="true">
+    <Position X="21.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAQAAAgQAAAQAAAAEAAAAAAgBoAAAAAACBAAAAAA=</HashCode>
+      <FileName>Tools.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Tools.Misc.LineConverter" Collapsed="true">
+    <Position X="20" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAAAQAACAAAAAAAAAA=</HashCode>
+      <FileName>Misc\LineConverter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Tools.Mokrago.CombatRatingsOutput" Collapsed="true">
+    <Position X="20" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAUAAAAAAAAAQAAAAIAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Mokrago\CombatRatingsOutput.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Tools.PATools.PATool" Collapsed="true">
+    <Position X="16.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAgABCABAoAwAAFMFAAKAAAgAEAgIEGCAAiAgIA=</HashCode>
+      <FileName>PATools\PATool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Tools.Pepsi.FactionStudies" Collapsed="true">
+    <Position X="23.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAEAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pepsi\FactionStudies.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Tools.Ralek.Extensions" Collapsed="true">
+    <Position X="21.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAgAAAIAAAAAAAABAAAAAAACAAAIAAA=</HashCode>
+      <FileName>Ralek\Extensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Tools.Ralek.SpellStudies" Collapsed="true">
+    <Position X="20" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IARAAAAAgIAQEAIAAqABAAQpAEAAAAgEAAYAICEEgEA=</HashCode>
+      <FileName>Ralek\SpellStudies.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Tools.Ralek.SpellExtensions" Collapsed="true">
+    <Position X="23.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ralek\SpellStudies.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Tools.Ralek.Utility.Stats" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="21.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gCIAAICAAAAAgBAECAAAAAQABAQAAAQEAAAQBAAAQCQ=</HashCode>
+      <FileName>Ralek\Utility\CodeTimers.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WCell.Tools.Ralek.Utility.MultiSampleCodeTimer" Collapsed="true">
+    <Position X="23.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAQAAAAAQABAAAAAAAAEBAAAAAAAAAAAAEAAAAAEAAA=</HashCode>
+      <FileName>Ralek\Utility\CodeTimers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Tools.Ralek.Utility.CodeTimer" Collapsed="true">
+    <Position X="18.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAABAAAAAAAAEACAAAAQBAAAAAEAEAAAUAAA=</HashCode>
+      <FileName>Ralek\Utility\CodeTimers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Tools.Spells.SpellEffectCreator" Collapsed="true">
+    <Position X="21.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAABAAAgAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Spells\SpellEffectCreator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Tools.Spells.SpellFocusObjectReader" Collapsed="true">
+    <Position X="25.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Spells\SpellFocusObject.DBC.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Tools.Spells.SpellLineWriter" Collapsed="true">
+    <Position X="16.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAACAABAAACAAAAiAAEAAAAQQAAACAIAA=</HashCode>
+      <FileName>Spells\SpellLineWriter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="WCell.Tools.Ralek.SpellClassSet" Collapsed="true">
+    <Position X="16.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ralek\SpellStudies.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

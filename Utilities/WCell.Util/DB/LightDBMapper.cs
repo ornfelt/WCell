@@ -248,7 +248,7 @@ namespace WCell.Util.DB
 							}
 
 							var value = field.Get(obj);
-							list.AddPair(col.ColumnName, value.ToString());
+                            list.AddPair(col.ColumnName, value.ToString());
 						}
 					}
 				}

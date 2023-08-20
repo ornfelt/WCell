@@ -8,7 +8,7 @@ obj
 
 changes
 Run/Content/dbc*
-Run/Content/Maps/*
+#Run/Content/Maps/*
 Run/Debug/*
 Run/Release/*
 TestResults/*

@@ -1,0 +1,801 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="WCell.Core.Addons.WCellAddonAttribute" Collapsed="true">
+    <Position X="24.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Addons\WCellAddonAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Core.Addons.WCellAddonBase&lt;A&gt;" Collapsed="true">
+    <Position X="11.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Addons\WCellAddonBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Core.Addons.WCellAddonBase" Collapsed="true">
+    <Position X="11.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACCAAAAoCAgAAMgAAADAQAAAAAAIAAAAgAAAAAAAA=</HashCode>
+      <FileName>Addons\WCellAddonBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WCell.Core.Addons.WCellAddonContext" Collapsed="true">
+    <Position X="26.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAFAABAAASAAABEAIAAAAgAAAAAAAA=</HashCode>
+      <FileName>Addons\WCellAddonContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Core.Addons.WCellAddonMgr&lt;T&gt;" Collapsed="true">
+    <Position X="11.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Addons\WCellAddonMgr.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Core.Addons.WCellAddonMgr" Collapsed="true">
+    <Position X="11.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAaAAAAIQAAIEAAABABAQAAAACAAAGCIAABAAAA=</HashCode>
+      <FileName>Addons\WCellAddonMgr.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Core.Addons.WCellAddonUtil" Collapsed="true">
+    <Position X="14" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Addons\WCellAddonMgr.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Core.AppConfig" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="14" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAEIAAJAAAAhAAAQAAEKABAAgBAARAAAAAICAAAAA=</HashCode>
+      <FileName>AppConfig.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WCell.Core.AsyncTaskPool" Collapsed="true">
+    <Position X="17.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAEAIIAAEgAAAAAAAAgAAAAAAAAAAAACAEA=</HashCode>
+      <FileName>AsyncTaskPool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Core.ClientInformation" Collapsed="true">
+    <Position X="24.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAIAAAAAIAAAAAAAAChAAAAAEAACARACAAE=</HashCode>
+      <FileName>ClientInformation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Core.ClientTypeUtility" Collapsed="true">
+    <Position X="14" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>ClientInformationUtil.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Core.ClientLocaleUtility" Collapsed="true">
+    <Position X="26.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>ClientInformationUtil.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Core.CommandUtil" Collapsed="true">
+    <Position X="15.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAIAQAAAAAAAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>CommandUtil.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Core.Compression" Collapsed="true">
+    <Position X="17.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>Compression.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Core.Extensions" Collapsed="true">
+    <Position X="14" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAAIBAAAAAAAAAEA=</HashCode>
+      <FileName>Extensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Core.Manager&lt;T&gt;" Collapsed="true">
+    <Position X="3.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAgAAAAAAAAIAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Manager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WCell.Core.ReflectUtil" Collapsed="true">
+    <Position X="19.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAQAAAAAAIAAA=</HashCode>
+      <FileName>ReflectUtil.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Core.SelfRunningTaskQueue" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="22.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAECAAQCAACABAAwFABAQIQAJjABAABAAABgAAAQAVk=</HashCode>
+      <FileName>SelfRunningTaskQueue.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WCell.Core.ServerApp&lt;T&gt;" Collapsed="true">
+    <Position X="24.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kABAAAEEAGAAAAAmAAAAwY8AKAoADQEAwAAEABAAAAA=</HashCode>
+      <FileName>ServerApp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Core.SingletonHolder&lt;TSingle&gt;" Collapsed="true">
+    <Position X="15.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>ServerApp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Core.Singleton&lt;T&gt;" Collapsed="true">
+    <Position X="3.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Singleton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Core.Statistics&lt;T&gt;" Collapsed="true">
+    <Position X="0.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAhAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Statistics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Core.Statistics" Collapsed="true">
+    <Position X="0.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAgAAwAAQBIEAAAABAACAAAAAAACAAAAAAAAAAhAEA=</HashCode>
+      <FileName>Statistics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Core.WCellConfig&lt;C&gt;" Collapsed="true">
+    <Position X="15.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>WCellConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Core.WCellConstants" Collapsed="true">
+    <Position X="17.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>cGWoByEUCQwlyCKAEkcoAAiwBjwibDSDgCoUdgIpIRY=</HashCode>
+      <FileName>WCellConstants.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Core.WCellException" Collapsed="true">
+    <Position X="19.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>WCellException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Core.WCellUtil" Collapsed="true">
+    <Position X="22.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>WCellUtil.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Core.Cryptography.ARC4" Collapsed="true">
+    <Position X="15.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAABAAAgAAAAAAAAAAAAAEAABgAAAAAAA=</HashCode>
+      <FileName>Cryptography\ARC4.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Core.Cryptography.Authenticator" Collapsed="true">
+    <Position X="19.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAIAAAAAAAAAAAAgAAAAACAEgIAAAAAACA=</HashCode>
+      <FileName>Cryptography\Authenticator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Core.Cryptography.BigInteger" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="21" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AGGCIIhAAhRAAgCF8YeLIoAiEkYAAJICYgQSAAAAJyA=</HashCode>
+      <FileName>Cryptography\BigInteger.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WCell.Core.Cryptography.HashUtilities" Collapsed="true">
+    <Position X="21" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Cryptography\HashUtilities.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Core.Cryptography.PacketCrypt" Collapsed="true">
+    <Position X="24.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQABAAAACAAAAAQQAAAAAACAEAAAAAAAEAAAAAAAABA=</HashCode>
+      <FileName>Cryptography\PacketCrypt.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Core.Cryptography.SecureRemotePassword" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="21" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QABAIABkCEIYCiAQBSQAAADwgQAEAACAAIAEXEAAICQ=</HashCode>
+      <FileName>Cryptography\SecureRemotePassword.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WCell.Core.Database.DatabaseConfiguration" Collapsed="true">
+    <Position X="21" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Database\DatabaseConfiguration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Core.Database.DatabaseUtil" Collapsed="true">
+    <Position X="22.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AoBAAAAAAgACASBEAAAACAEAEQKAABAQgCAEIBIABAA=</HashCode>
+      <FileName>Database\DatabaseUtil.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Core.Database.ConsoleStringMover" Collapsed="true">
+    <Position X="8.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Database\DatabaseUtil.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Core.Database.SingleStringMover" Collapsed="true">
+    <Position X="8.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAACAAAAEAAAA=</HashCode>
+      <FileName>Database\DatabaseUtil.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Core.Database.SqlUtil" Collapsed="true">
+    <Position X="17.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAIEAAAAAAAAAIAkAAAAAAAIAAAAAAAQ=</HashCode>
+      <FileName>Database\SqlUtil.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Core.Database.WCellRecord&lt;T&gt;" Collapsed="true">
+    <Position X="21" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAABAAAAAAAAAAAAAAAAAFAAEAAAEABBQEAAAA=</HashCode>
+      <FileName>Database\WCellRecord.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.RealmServer.Database.NHIdGenerator" Collapsed="true">
+    <Position X="22.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EgAAIAAAgACAAAAAEAAACAAAAEAAAABAAAACAAAAAIA=</HashCode>
+      <FileName>Database\NHIdGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Core.DBC.MappedDBCReader&lt;TEntry, TConverter&gt;" Collapsed="true">
+    <Position X="0.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAACIAAAAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>DBC\DBCReader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Core.DBC.ListDBCReader&lt;TEntry, TConverter&gt;" Collapsed="true">
+    <Position X="2.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAEAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>DBC\DBCReader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Core.DBC.DBCReader&lt;TConverter&gt;" Collapsed="true">
+    <Position X="1.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAQAAAAACAMIAAAAAAAAAACAEQIAAAAABQACI=</HashCode>
+      <FileName>DBC\DBCReader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Core.DBC.AdvancedDBCRecordConverter&lt;T&gt;" Collapsed="true">
+    <Position X="4" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>DBC\DBCRecordConverter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Core.DBC.DBCRecordConverter" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgCAAAAAAAIAABAAAAAAAAAAQAAACQCAAKAA=</HashCode>
+      <FileName>DBC\DBCRecordConverter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WCell.Core.DBC.MapInfo" Collapsed="true">
+    <Position X="19.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAACiAQAAACgAkSAAgAAAAQAUAAQAAAAAAAACAAyAQA=</HashCode>
+      <FileName>DBC\DBCRecords.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Core.DBC.GameTableConverter" Collapsed="true">
+    <Position X="5.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>DBC\DBCRecords.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Core.DBC.ChatChannelConverter" Collapsed="true">
+    <Position X="7.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>DBC\DBCRecords.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Core.DBC.CharStartOutfitConverter" Collapsed="true">
+    <Position X="0.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>DBC\DBCRecords.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Core.DBC.CharBaseInfoConverter" Collapsed="true">
+    <Position X="3" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>DBC\DBCRecords.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Core.Initialization.InitializationDependency" Collapsed="true">
+    <Position X="24.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAQAAAgAAAACAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Initialization\DependentInitializationAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Core.Initialization.DependentInitializationAttribute" Collapsed="true">
+    <Position X="24.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Initialization\DependentInitializationAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Core.Initialization.DependentInitializationStep" Collapsed="true">
+    <Position X="26.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAQAAAAA=</HashCode>
+      <FileName>Initialization\DependentInitializationStep.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Core.Initialization.GlobalMgrAttribute" Collapsed="true">
+    <Position X="17.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Initialization\GlobalMgrAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Core.Initialization.GlobalMgrInfo" Collapsed="true">
+    <Position X="19.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAIAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Initialization\GlobalMgrInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Core.Initialization.InitializationAttribute" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="22.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAAAAAQgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Initialization\InitializationAttribute.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WCell.Core.Initialization.InitializationException" Collapsed="true">
+    <Position X="26.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Initialization\InitializationException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Core.Initialization.InitializationStep" Collapsed="true">
+    <Position X="14" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAEAAAAAAAgAAAACAQAAABAQAAEAAA=</HashCode>
+      <FileName>Initialization\InitializationStep.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Core.Initialization.InitMgr" Collapsed="true">
+    <Position X="15.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BGQCAADAIIEAEURQQAAIgAIAAAAgAAAAQSACgAAAggA=</HashCode>
+      <FileName>Initialization\InitMgr.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Core.Localization.Resources" Collapsed="true">
+    <Position X="10.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Localization\Resources.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Core.Localization.WCell_Core" Collapsed="true">
+    <Position X="10.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>KEQKAAgAAAiAYFAAQSABEAIJARAAAgBkRAEiIFKAFIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.AuthServer.AuthPacketIn" Collapsed="true">
+    <Position X="7.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Network\AuthPacketIn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.AuthServer.AuthPacketOut" Collapsed="true">
+    <Position X="2.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Network\AuthPacketOut.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Core.Network.DisposableRealmPacketIn" Collapsed="true">
+    <Position X="5.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEACAAAAAAAAEAAAAAAAQAAAAA=</HashCode>
+      <FileName>Network\DisposableRealmPacketIn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Core.Network.FakeClientBase&lt;C, PI, PO, PM&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>KgAAABAAACAAFABEAEIACIAACgAAAAAAAAAAgwAAUAA=</HashCode>
+      <FileName>Network\FakeClientBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WCell.Core.Network.IOExtensions" Collapsed="true">
+    <Position X="17.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Network\IOExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Core.Network.NetworkStatistics" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="21" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAIAAAAAgAAgAAAAAAAAQAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Network\NetworkStatistics.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WCell.Core.Network.PacketHandler&lt;C, P&gt;" Collapsed="true">
+    <Position X="26.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Network\PacketHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Core.Network.PacketHandlerAttribute" Collapsed="true">
+    <Position X="10.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAIAAAAAAAAAAAAAAQAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Network\PacketHandlerAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Core.Network.ClientPacketHandlerAttribute" Collapsed="true">
+    <Position X="10.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Network\PacketHandlerAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Core.Network.PacketIn" Collapsed="true">
+    <Position X="6.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAKIgASAACAAAgCsKYMRGIBAAEAAABAMAAAAgBQCAQQ=</HashCode>
+      <FileName>Network\PacketIn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Core.Network.PacketManager&lt;C, P, A&gt;" Collapsed="true">
+    <Position X="14" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAEAACAGAAAAAAEEBAAAAAEAAAEABEAA=</HashCode>
+      <FileName>Network\PacketManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Core.Network.PacketOut" Collapsed="true">
+    <Position X="1.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAABAAAQAsAgABGAAAAQAACBQAAAACAAAAAAA=</HashCode>
+      <FileName>Network\PacketOut.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Core.Network.PrimitiveWriter" Collapsed="true">
+    <Position X="1.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAkAACgAAAAAAAAAIAVAAAigBCAjAAEAYBA=</HashCode>
+      <FileName>Network\PrimitiveWriter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.RealmServer.RealmPacketIn" Collapsed="true">
+    <Position X="5.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIEAAAAAAMAAAAAABAAggAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Network\RealmPacketIn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.RealmServer.RealmPacketOut" Collapsed="true">
+    <Position X="0.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAoAAAAIAAAAAAAIAAAAAAAAAAAAQAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Network\RealmPacketOut.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Core.Paths.Path" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgIAAACAAAAABRAACAAAAAAAAgAQAAAEAAAAAAABAgA=</HashCode>
+      <FileName>Paths\Path.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WCell.Core.Paths.PathQuery" Collapsed="true">
+    <Position X="17.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgBAAAIAAAAAAQIABAAAAAgAAAAIAAAAAAAAAAIAQAA=</HashCode>
+      <FileName>Paths\PathQuery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Core.Timers.BucketTimer" Collapsed="true">
+    <Position X="22.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Timers\BucketTimer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Core.Timers.SimpleUpdatable" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="14" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>Timers\IUpdatable.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WCell.Core.Timers.TimerBucket" Collapsed="true">
+    <Position X="19.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAEAAAAAAAQAAAIAAAAAAAAAAAEQAA=</HashCode>
+      <FileName>Timers\TimerBucket.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Core.Timers.SimpleTimerEntry" Collapsed="true">
+    <Position X="26.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQEgAAAAAAAAAAIAIAAAABAAAAAQAA=</HashCode>
+      <FileName>Timers\TimerEntry.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Core.Timers.TimerEntry" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="21" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAQgAAAQABAgAQAAIAAIAAAAAAAAAQ=</HashCode>
+      <FileName>Timers\TimerEntry.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WCell.Core.Timers.TimerRunner" Collapsed="true">
+    <Position X="22.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAQAAAAAAAACCAAABAAAAgAQAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Timers\TimerRunner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Core.Variables.WCellVariableAttribute" Collapsed="true">
+    <Position X="24.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Variables\WCellVariableAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Core.Variables.WCellVariableDefinition" Collapsed="true">
+    <Position X="26.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Variables\WCellVariableDefinition.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Core.WDB.WDBReader&lt;TEntry, TConverter&gt;" Collapsed="true">
+    <Position X="14" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAACEAAAAQAAAABAAggAAAAAAAAAAAACE=</HashCode>
+      <FileName>WDB\WDBReader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Core.WDB.WDBRecordConverter&lt;TEntry&gt;" Collapsed="true">
+    <Position X="5.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>WDB\WDBRecordConverter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Core.WDB.CreatureCache" Collapsed="true">
+    <Position X="19.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAADhAAAAgEgAwAAAAAAAACEBCASAAAAAwEAAAAABAA=</HashCode>
+      <FileName>WDB\WDBRecords.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Core.WDB.CreatureCacheConverter" Collapsed="true">
+    <Position X="5.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>WDB\WDBRecords.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="WCell.Core.EntityId" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="19.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQNSFIIBAQMAAAUEgkAAYEAFAQgAQIAgAvgQoiYQEiI=</HashCode>
+      <FileName>EntityId.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Struct Name="WCell.Core.DBC.ChatChannelEntry" Collapsed="true">
+    <Position X="17.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>DBC\DBCRecords.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="WCell.Core.DBC.CharStartOutfit" Collapsed="true">
+    <Position X="15.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QABCAAAAAAAAAACAAAIAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DBC\DBCRecords.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="WCell.Core.DBC.CharBaseInfo" Collapsed="true">
+    <Position X="14" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DBC\DBCRecords.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="WCell.Core.Network.PacketId" Collapsed="true">
+    <Position X="21" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAEgAAAAAAAAAAAQIAAAAAAAAASAjA=</HashCode>
+      <FileName>Network\PacketId.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="WCell.Core.Network.PacketInfo" Collapsed="true">
+    <Position X="22.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAQA=</HashCode>
+      <FileName>Network\PacketInfo.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="WCell.Core.Addons.IWCellAddon" Collapsed="true">
+    <Position X="21" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAoAAgAAAgAAABAQAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Addons\IWCellAddon.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WCell.Core.Initialization.IInitializationInfo" Collapsed="true">
+    <Position X="14" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Initialization\IInitializationInfo.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WCell.Core.Paths.IHasPosition" Collapsed="true">
+    <Position X="8.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Paths\IHasPosition.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WCell.Core.Paths.IPathVertex" Collapsed="true">
+    <Position X="8.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAQAAAAAAAAAAAAAAEAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Paths\IPathVertex.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WCell.Core.Terrain.ITerrain" Collapsed="true">
+    <Position X="15.75" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAAAAAAAAIAAAAAAAIABAIA=</HashCode>
+      <FileName>Terrain\ITerrain.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WCell.Core.Terrain.ITerrainProvider" Collapsed="true">
+    <Position X="17.5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Terrain\ITerrainProvider.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WCell.Core.Timers.IUpdatable" Collapsed="true">
+    <Position X="19.25" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Timers\IUpdatable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WCell.Core.WDB.IWDBEntry" Collapsed="true">
+    <Position X="22.75" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>WDB\WDBReader.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="WCell.Core.HighId" Collapsed="true">
+    <Position X="17.5" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAUAAmgACACAJiAAAEQEBAAAAAAAAAAAEQIAkAA=</HashCode>
+      <FileName>EntityId.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="WCell.Core.HighGuid8" Collapsed="true">
+    <Position X="14" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAEAKAGAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>EntityId.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="WCell.Core.HighGuidType" Collapsed="true">
+    <Position X="15.75" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAIAAAAARABAAAAAAAAAAAAAIAAAg=</HashCode>
+      <FileName>EntityId.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="WCell.Core.Database.RecordState" Collapsed="true">
+    <Position X="21" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACBAAAAAEAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Database\WCellRecord.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="WCell.Core.Initialization.InitializationPass" Collapsed="true">
+    <Position X="19.25" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAQAAgAAAgBAAQAAAAAAAAIAIAABIAAAAAACAAAAAYA=</HashCode>
+      <FileName>Initialization\InitializationPass.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="WCell.Core.Network.ServiceType" Collapsed="true">
+    <Position X="22.75" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAEAAAAAAAAAEAABA=</HashCode>
+      <FileName>Network\PacketId.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="WCell.Core.Timers.TimerPriority" Collapsed="true">
+    <Position X="24.5" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAIBAAAIAAAAAYAAAAAACAAAAAAAAAAQAgAAAAAAA=</HashCode>
+      <FileName>Timers\TimerPriority.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="WCell.Core.Initialization.InitFailedHandler" Collapsed="true">
+    <Position X="14" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Initialization\InitMgr.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

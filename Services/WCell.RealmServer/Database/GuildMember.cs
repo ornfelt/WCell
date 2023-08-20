@@ -30,7 +30,7 @@ namespace WCell.RealmServer.Guilds
 		[Field("Class", NotNull = true)]
 		private int _class;
 
-		[Field("Rank", NotNull = true)]
+		[Field("`Rank`", NotNull = true)]
 		private int _rankId;
 
 		[Field("GuildId", NotNull = true)]

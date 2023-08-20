@@ -153,13 +153,14 @@ namespace WCell.AuthServer
 		/// <summary>
 		/// The type of database we're connecting to. (e.g. MySQL, MSSQL 2005, Oracle, etc)
 		/// </summary>
-		public static string DBType = "mysql5";
+		//public static string DBType = "mysql5";
+		public static string DBType = "mysql8";
 
 		/// <summary>
 		/// The connection string for the authentication server database.
 		/// </summary>
 		[Variable(IsFileOnly = true)]
-		public static string DBConnectionString = @"Server=127.0.0.1;Port=3306;Database=WCellAuthServer;CharSet=utf8;Uid=root;Pwd=;";
+		public static string DBConnectionString = @"Server=127.0.0.1;Port=3306;Database=wcell_auth;CharSet=utf8;Uid=wcell;Pwd=wcell;";
 
 		/// <summary>
 		/// The listening address of the IPC service.

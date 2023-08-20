@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Cell.Core.ArrayBuffer" Collapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAACAAAAAIACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ArrayBuffer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cell.Core.BufferManager" Collapsed="true">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QBAAgAQAACCEBQARAAIwKABkAMAgAABAAAAAADCgQAA=</HashCode>
+      <FileName>BufferManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cell.Core.BufferSegment" Collapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAIAAAAACAAKEAAAABAAAAQAAAAAAQAAAAC4AA=</HashCode>
+      <FileName>BufferSegment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cell.Core.CellDef" Collapsed="true">
+    <Position X="3" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAgAAAAAAAAAAAAAAAAACAAACAAQAAA=</HashCode>
+      <FileName>CellDef.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cell.Core.ClientBase" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ApAAQBAQgDAYCAFEbEIACIAACgCAAAAAQAAEAiAQQAA=</HashCode>
+      <FileName>ClientBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Cell.Core.ByteArrHelper" Collapsed="true">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAQEgAACAAAAAABAAAAAAAAAAAAAAQAAAAQCAACBA=</HashCode>
+      <FileName>Extensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cell.Core.NativeMethods" Collapsed="true">
+    <Position X="8.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NativeMethods.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cell.Core.NetworkUtil" Collapsed="true">
+    <Position X="3" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>DAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NetworkUtil.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cell.Core.ObjectPoolMgr" Collapsed="true">
+    <Position X="6.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACACAAAAAABBAAAACAAAAABAAAAAAAAAgAAAAAQAAA=</HashCode>
+      <FileName>ObjectPoolMgr.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cell.Core.SegmentStream" Collapsed="true">
+    <Position X="8.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgACAAQAAgGAECAABiAAAAAEAgBAAAAAUIACA=</HashCode>
+      <FileName>SegmentStream.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cell.Core.UDPSendToArgs" Collapsed="true">
+    <Position X="6.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAQAAAAAAAAAAAAAAAAAAAAggAAAA=</HashCode>
+      <FileName>ServerBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cell.Core.ServerBase" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAEGCAGQABZIQLADGyBCAAABwAKBCZACVYkCiI0Q=</HashCode>
+      <FileName>ServerBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Cell.Core.SocketHelpers" Collapsed="true">
+    <Position X="4.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAIAAAAAAAAAAQAEAAAAAAA=</HashCode>
+      <FileName>SocketHelpers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cell.Core.XmlIPAddress" Collapsed="true">
+    <Position X="8.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAEgAAAAAAAAAAAAIACAAAAAAACAAA=</HashCode>
+      <FileName>XmlIPAddress.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cell.Core.Exceptions.InvalidEndpointException" Collapsed="true">
+    <Position X="6.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAgAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Exceptions\InvalidEndpointException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cell.Core.Exceptions.NoAvailableAdaptersException" Collapsed="true">
+    <Position X="4.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\NoAvailableInterfacesException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cell.Core.Localization.Cell_Core" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAEBAAAAQIAIAAABCABGAgAAQAAAAAABAADIAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cell.Core.Localization.Resources" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Localization\Resources.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Cell.Core.SpinWaitLock" Collapsed="true">
+    <Position X="3" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAEAAAAAAQCAAAAAAAEAAAAIAAAAAAAQAA=</HashCode>
+      <FileName>SpinWaitLock.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="Cell.Core.IClient" Collapsed="true">
+    <Position X="3" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAABAAAAAAAABAAEIACIAACgAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>IClientBase.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Delegate Name="Cell.Core.ClientConnectedHandler" Collapsed="true">
+    <Position X="3" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>ServerBase.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="Cell.Core.ClientDisconnectedHandler" Collapsed="true">
+    <Position X="4.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>ServerBase.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

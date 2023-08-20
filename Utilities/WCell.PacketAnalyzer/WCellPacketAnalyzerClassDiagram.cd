@@ -1,0 +1,437 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="WCell.PacketAnalysis.PacketAnalyzer" Collapsed="true">
+    <Position X="10.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAQAAAAAAAAAAiIAIAAAEAAAAgAQABAAAAIA=</HashCode>
+      <FileName>PacketAnalyzer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.PacketAnalysis.PacketDefinition" Collapsed="true">
+    <Position X="12" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAFAAIBIAAEACAAAAAAAAACAAAIAAA=</HashCode>
+      <FileName>PacketDefinition.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.PacketAnalysis.PacketParser" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAiAAAAgCEBCAAAAEACiAAAgAAAAAAABAAAAAAMAiA=</HashCode>
+      <FileName>PacketParser.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WCell.PacketAnalysis.StaticListPacketSegmentStructure" Collapsed="true">
+    <Position X="0.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PacketSegments.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.PacketAnalysis.FinalListPacketSegmentStructure" Collapsed="true">
+    <Position X="3" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAABAAACABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PacketSegments.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.PacketAnalysis.ListPacketSegmentStructure" Collapsed="true">
+    <Position X="1.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>FAAgAQAAAAAAEAAgBAAACAAAAABAAAAAAQESAAAAAAA=</HashCode>
+      <FileName>PacketSegments.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.PacketAnalysis.ComplexPacketSegmentStructure" Collapsed="true">
+    <Position X="1.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAABAAAEAAAAAAACAAAAAAAAESAAAAAAA=</HashCode>
+      <FileName>PacketSegments.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.PacketAnalysis.SwitchPacketSegmentStructure" Collapsed="true">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAgAAABAEAAAAIAAEAAAAACAAAQESAAAAAAI=</HashCode>
+      <FileName>PacketSegments.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.PacketAnalysis.PacketSegmentStructure" Collapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAIAAEAAAABAMQAAAIAQAoQAAAAQAAQkSAAAAIAA=</HashCode>
+      <FileName>PacketSegments.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.PacketAnalysis.ParsedSegment" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgCAIgAAIAAEAAECAIAABAEBAAUIQAgAACgAAAEAAo=</HashCode>
+      <FileName>ParsedSegment.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WCell.PacketAnalysis.EmptyParsedSegment" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAECAIAABAAAAAQIAAgAACgAAAAAAI=</HashCode>
+      <FileName>ParsedSegment.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WCell.PacketAnalysis.SimpleTypes" Collapsed="true">
+    <Position X="10.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAIAAAAASAAAAAAIEAACAAAAAAACRBAAAACAAAAAAA=</HashCode>
+      <FileName>SimpleTypes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.PacketAnalysis.SwitchCase" Collapsed="true">
+    <Position X="19" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ADABQAAAAAAkEgQkCBIAAAgFKAQAAAAgAAJmAAAACAA=</HashCode>
+      <FileName>SwitchCase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.PacketAnalysis.Logs.AdvancedLogParser" Collapsed="true">
+    <Position X="1.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAggAAAAAAAAAAAAAAAECAAAAEAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Logs\AdvancedLogParser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.PacketAnalysis.Logs.GenericLogParser" Collapsed="true">
+    <Position X="0.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAhABAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Logs\AdvancedLogParser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.PacketAnalysis.Logs.KSnifferLogConverter" Collapsed="true">
+    <Position X="19" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAABAgAACABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Logs\KSnifferLogConverter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.PacketAnalysis.Logs.KSnifferZorLogConverter" Collapsed="true">
+    <Position X="10.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAABAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Logs\KSnifferZorLogConverter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.PacketAnalysis.Logs.LogConverter" Collapsed="true">
+    <Position X="12" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAQAAQACAAAAAAAAAAAA=</HashCode>
+      <FileName>Logs\LogConverter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.PacketAnalysis.Logs.LogHandler" Collapsed="true">
+    <Position X="13.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAIAAAAAAAAAAAAAAAAAAAgAAAAAAEAAA=</HashCode>
+      <FileName>Logs\LogHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.PacketAnalysis.Logs.SniffitztLog" Collapsed="true">
+    <Position X="12" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Logs\SniffitztLog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.PacketAnalysis.Logs.SniffitztlogHeader" Collapsed="true">
+    <Position X="15.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAIAQAAFAAAAA=</HashCode>
+      <FileName>Logs\SniffitztLog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.PacketAnalysis.Logs.SniffitztlogPacket" Collapsed="true">
+    <Position X="17.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAAAAAAABAAAgAAAIAAQ=</HashCode>
+      <FileName>Logs\SniffitztLog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.PacketAnalysis.Logs.SniffitztLogConverter" Collapsed="true">
+    <Position X="13.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAQAAAAAAACABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Logs\SniffitztLogConverter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.PacketAnalysis.Logs.WlpConverter" Collapsed="true">
+    <Position X="17.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAABAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Logs\WlpConverter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.PacketAnalysis.Logs.ZorLogConverter" Collapsed="true">
+    <Position X="10.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAABAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Logs\ZorLogConverter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.PacketAnalysis.Samples.GOSerializer" Collapsed="true">
+    <Position X="2.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAEAAAAAAAAIAAAEAABAAAAAA=</HashCode>
+      <FileName>Samples\GOSerializer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WCell.PacketAnalysis.Samples.MixedPASample" Collapsed="true">
+    <Position X="15.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAgBAgAAAo=</HashCode>
+      <FileName>Samples\MixedSample.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.PacketAnalysis.Samples.TrainerInfoExtractor" Collapsed="true">
+    <Position X="10.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAQAAAAAAAAAAEAAAAgEAAIYAABAAAAAA=</HashCode>
+      <FileName>Samples\TrainerInfoExtractor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.PacketAnalysis.Samples.ReputationInfo" Collapsed="true">
+    <Position X="19" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAgAAAAAAA=</HashCode>
+      <FileName>Samples\TrainerInfoExtractor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.PacketAnalysis.Samples.VehicleExtractor" Collapsed="true">
+    <Position X="15.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAYAAAAAAAAA=</HashCode>
+      <FileName>Samples\VehicleExtractor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.PacketAnalysis.Updates.FieldRenderer" Collapsed="true">
+    <Position X="13.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAhAAAAAAgAA=</HashCode>
+      <FileName>Updates\FieldRenderer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.PacketAnalysis.Updates.FieldRenderInfo" Collapsed="true">
+    <Position X="15.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAARAAAAAAAAAARGAAAAAgAA=</HashCode>
+      <FileName>Updates\FieldRenderInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.PacketAnalysis.Updates.FieldRenderUtil" Collapsed="true">
+    <Position X="17.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAwEAEQKgACDgAIAQAEAISAEIAAQCAEAAiiQBAAMQA=</HashCode>
+      <FileName>Updates\FieldRenderUtil.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.PacketAnalysis.Updates.MovementBlock" Collapsed="true">
+    <Position X="17.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIYAAK8gAAIAAMAvAECGhAANwAAAgABAwIBAEAwAAAQ=</HashCode>
+      <FileName>Updates\MovementBlock.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.PacketAnalysis.Updates.MovementBlockHelper" Collapsed="true">
+    <Position X="19" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAABAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Updates\MovementBlock.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.PacketAnalysis.Updates.ParsedUpdatePacket" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="17.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACEAACgACAAAAAAAAAAgAAAAEAAIEAAAAEIAAABAAQ=</HashCode>
+      <FileName>Updates\ParsedUpdatePacket.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WCell.PacketAnalysis.Updates.UpdateBlock" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAECAAyIABgAEDAAQiEUAAQAAAEgAAeAg4AiBMUg=</HashCode>
+      <FileName>Updates\UpdateBlock.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WCell.PacketAnalysis.Updates.UpdateFieldsUtil" Collapsed="true">
+    <Position X="13.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEACAAAAACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Updates\UpdateFieldsUtil.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.PacketAnalysis.Xml.ChangeLog" Collapsed="true">
+    <Position X="10.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Xml\VersionChanges.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.PacketAnalysis.Xml.XmlPacketDefinitions" Collapsed="true">
+    <Position X="19" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAEBAAAAAAAIACAAAEBAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Xml\XmlPacketDefinitions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.PacketAnalysis.Xml.RealmPacketDefinition" Collapsed="true">
+    <Position X="5.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Xml\XmlPacketDefinitions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.PacketAnalysis.Xml.AuthPacketDefinition" Collapsed="true">
+    <Position X="7.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Xml\XmlPacketDefinitions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.PacketAnalysis.Xml.XmlPacketDefinition" Collapsed="true">
+    <Position X="6.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgBAAAAAAAAAEAAAIAAAAAEAAAAAAAAAAAAAAAIABA=</HashCode>
+      <FileName>Xml\XmlPacketDefinitions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="WCell.PacketAnalysis.DirectedPacketId" Collapsed="true">
+    <Position X="10.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAQ=</HashCode>
+      <FileName>PacketDirection.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="WCell.PacketAnalysis.Logs.ParsablePacketInfo" Collapsed="true">
+    <Position X="12" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAIACA=</HashCode>
+      <FileName>Logs\LogConverter.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="WCell.PacketAnalysis.Updates.Speeds" Collapsed="true">
+    <Position X="13.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAEAgACAAAAAAAAICAAAABBAAAABAI=</HashCode>
+      <FileName>Updates\MovementBlock.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="WCell.PacketAnalysis.IParsedPacket" Collapsed="true">
+    <Position X="10.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IParsedPacket.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WCell.PacketAnalysis.IParsedSegment" Collapsed="true">
+    <Position X="12" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAECAIAABAAAAAQIAAgAACgAAAAAAI=</HashCode>
+      <FileName>ParsedSegment.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="WCell.PacketAnalysis.SimpleType" Collapsed="true">
+    <Position X="17.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAEAAMJAAhCAAQAIAAQABAgABAAAAAAEAAAgCKA=</HashCode>
+      <FileName>Enums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="WCell.PacketAnalysis.PacketSegmentStructureType" Collapsed="true">
+    <Position X="13.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAIAAAAAAAAQAAAQAEAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Enums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="WCell.PacketAnalysis.PacketSender" Collapsed="true">
+    <Position X="15.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAQ=</HashCode>
+      <FileName>PacketDirection.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="WCell.PacketAnalysis.ComparisonType" Collapsed="true">
+    <Position X="10.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>JCAAAAAAAAAACBAAgAAAAAQAAAAAAGAAAAAAAAQAACE=</HashCode>
+      <FileName>SwitchCase.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="WCell.PacketAnalysis.Logs.LogParserType" Collapsed="true">
+    <Position X="12" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAICBAQAgAAAAAAAAAAAAAAAAAAAEAAACAAAAAAAAAA=</HashCode>
+      <FileName>Logs\LogConverter.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="WCell.PacketAnalysis.Logs.SniffitztDirection" Collapsed="true">
+    <Position X="19" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Logs\SniffitztLog.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="WCell.PacketAnalysis.SegmentReader" Collapsed="true">
+    <Position X="17.25" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SimpleTypes.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="WCell.PacketAnalysis.SegmentRenderer" Collapsed="true">
+    <Position X="19" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>SimpleTypes.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="WCell.PacketAnalysis.SimpleTypeConverter" Collapsed="true">
+    <Position X="10.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SimpleTypes.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="WCell.PacketAnalysis.Logs.PacketParseHandler" Collapsed="true">
+    <Position X="13.75" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Logs\LogConverter.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="WCell.PacketAnalysis.Logs.LogParser" Collapsed="true">
+    <Position X="10.25" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Logs\LogConverter.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="WCell.PacketAnalysis.Logs.OpCodeValidator" Collapsed="true">
+    <Position X="12" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>Logs\LogConverter.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="WCell.PacketAnalysis.Updates.RenderHandler" Collapsed="true">
+    <Position X="15.5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Updates\FieldRenderUtil.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

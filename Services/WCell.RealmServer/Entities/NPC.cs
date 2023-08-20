@@ -1401,6 +1401,7 @@ namespace WCell.RealmServer.Entities
 		{
 			get
 			{
+                //log.Info("IsTrainer check... " + (TrainerEntry != null) + ", for npc: " + m_name + ", " + m_entry);
 				return TrainerEntry != null;
 			}
 		}

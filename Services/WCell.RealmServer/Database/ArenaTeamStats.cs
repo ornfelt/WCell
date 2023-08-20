@@ -28,7 +28,7 @@ namespace WCell.RealmServer.Battlegrounds.Arenas
         [Field("WinsSeason", NotNull = true)]
         private int _winsSeason;
 
-        [Field("Rank", NotNull = true)]
+        [Field("`Rank`", NotNull = true)]
         private int _rank;
 
     }

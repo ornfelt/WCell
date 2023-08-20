@@ -15,7 +15,8 @@ namespace WCell.Core.Database
             s_configurationMappings.Add("mssql", "Configurations.SQLServerConfiguration.arconfig");
 			s_configurationMappings.Add("mssql2005", "Configurations.SQLServer2005Configuration.arconfig");
 			s_configurationMappings.Add("mysql", "Configurations.MySQLConfiguration.arconfig");
-			s_configurationMappings.Add("mysql5", "Configurations.MySQL5Configuration.arconfig");
+			//s_configurationMappings.Add("mysql5", "Configurations.MySQL5Configuration.arconfig");
+			s_configurationMappings.Add("mysql8", "Configurations.MySQL5Configuration.arconfig");
 			s_configurationMappings.Add("oracle", "Configurations.OracleConfiguration.arconfig");
 			s_configurationMappings.Add("pgsql", "Configurations.PostgreSQLServerConfiguration.arconfig");
 			s_configurationMappings.Add("db2", "Configurations.DB2Configuration.arconfig");
@@ -47,7 +48,8 @@ namespace WCell.Core.Database
             // MySQL's unique "feature" of allowing invalid dates in a DATE field,
             // especially using 0000-00-00 as a default value for DATE NOT NULL columns.
             // When such a date is encountered, it throws an exception when converting itself to a DateTime
-            if ((dbTypeLowerCase == "mysql" || dbTypeLowerCase == "mysql5") && !connString.ToLower().Contains("convert zero datetime"))
+            //if ((dbTypeLowerCase == "mysql" || dbTypeLowerCase == "mysql5") && !connString.ToLower().Contains("convert zero datetime"))
+            if ((dbTypeLowerCase == "mysql" || dbTypeLowerCase == "mysql8") && !connString.ToLower().Contains("convert zero datetime"))
                 connString += "Convert Zero DateTime=true;";
 
             config = config.Replace("{0}", connString);

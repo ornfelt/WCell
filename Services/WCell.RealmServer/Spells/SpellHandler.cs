@@ -454,6 +454,7 @@ namespace WCell.RealmServer.Spells
 			SpellEffectCreators[(int)SpellEffectType.Weapon] = (cast, effect) => new WeaponEffectHandler(cast, effect);											// 25
 			SpellEffectCreators[(int)SpellEffectType.PersistantAreaAura] = (cast, effect) => new PersistantAreaAuraEffectHandler(cast, effect);					// 27
 			SpellEffectCreators[(int)SpellEffectType.Summon] = (cast, effect) => new SummonEffectHandler(cast, effect);											// 28
+			SpellEffectCreators[(int)SpellEffectType.LeapForward] = (cast, effect) => new LeapForwardEffectHandler(cast, effect);								// 29
 			SpellEffectCreators[(int)SpellEffectType.Energize] = (cast, effect) => new EnergizeEffectHandler(cast, effect);										// 30
 			SpellEffectCreators[(int)SpellEffectType.WeaponPercentDamage] = (cast, effect) => new WeaponDamageEffectHandler(cast, effect);						// 31
 			SpellEffectCreators[(int)SpellEffectType.OpenLock] = (cast, effect) => new OpenLockEffectHandler(cast, effect);										// 33

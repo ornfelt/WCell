@@ -1,0 +1,281 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="WCell.MPQTool.DBC.DBCReader" Collapsed="true">
+    <Position X="14.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAYABAAQAAAABABiAAQAIACAQAAAAAAABQAHI=</HashCode>
+      <FileName>DBC\DBCReader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.MPQTool.DBC.Compare.DBCDirComparer" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAQAEBAABBAAAA=</HashCode>
+      <FileName>DBC\Compare\DBCDirComparer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.MPQTool.DBC.Compare.DBCDirCompareResult" Collapsed="true">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DBC\Compare\DBCDirCompareResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.MPQTool.DBC.Compare.DBCFileComparer" Collapsed="true">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAgAAAAAABAAAAAAAACUCAAAgAAAABAAABAACA=</HashCode>
+      <FileName>DBC\Compare\DBCFileComparer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.MPQTool.DBCTool" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CQAAQgwEAAAAAIAAAACAjAAAAAAAgAACAEBAABgIgAA=</HashCode>
+      <FileName>DBCTool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.MPQTool.DBCToolRunner" Collapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>DBCTool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.MPQTool.MpqLibrarian" Collapsed="true">
+    <Position X="12.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAABEgAAAAAgAAAAEAAAAAAAAAIAAA=</HashCode>
+      <FileName>MpqLibrarian.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.MPQTool.MPQToolConfig" Collapsed="true">
+    <Position X="11" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAgCAAAAAAAAAAAAAQAgAAAAAAAA=</HashCode>
+      <FileName>MPQToolConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MpqReader.BitStream" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEEBAAAAgAAAAQAAAAgAAAAQAAAAAAACAAAAA=</HashCode>
+      <FileName>SCSharp.Mpq\BitStream.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MpqReader.MpqArchive" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="14.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EgAAAAAEAKAAAAABBEAAAAAEhIAAMWAAAAACACGAAIQ=</HashCode>
+      <FileName>SCSharp.Mpq\MpqArchive.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MpqReader.LinkedNode" Collapsed="true">
+    <Position X="12.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAEAAAAAAAIAAAAAAQAAAACAAAEAAAAAAAAAAAAI=</HashCode>
+      <FileName>SCSharp.Mpq\MpqHuffman.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MpqReader.MpqHuffman" Collapsed="true">
+    <Position X="11" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIACAAAEABAAAAAAAAACBQAAAAAA=</HashCode>
+      <FileName>SCSharp.Mpq\MpqHuffman.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MpqReader.MpqParserException" Collapsed="true">
+    <Position X="14.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SCSharp.Mpq\MpqParserException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MpqReader.MpqStream" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAEAQAAiXAAAAcBkBAIgAFAAAAAAAAEMAiA=</HashCode>
+      <FileName>SCSharp.Mpq\MpqStream.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MpqReader.MpqWavCompression" Collapsed="true">
+    <Position X="12.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAACAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>SCSharp.Mpq\MpqWavCompression.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MpqReader.PKLibDecompress" Collapsed="true">
+    <Position X="7.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAJgEYrAAAAAAAAAAAAoAAAAAAAAAAAACAIIAAAA=</HashCode>
+      <FileName>SCSharp.Mpq\PKLibDecompress.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCSharp.Mpq" Collapsed="true">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAACAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>SCSharp.Mpq\Mpq.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SCSharp.MpqContainer" Collapsed="true">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAACAAAAAAAAAABAACAAAAAAAAEAAAAABAAAA=</HashCode>
+      <FileName>SCSharp.Mpq\Mpq.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCSharp.MpqDirectory" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAAACAAIAIAAABAAAAAAAAAA=</HashCode>
+      <FileName>SCSharp.Mpq\Mpq.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCSharp.MpqArchive" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAACAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>SCSharp.Mpq\Mpq.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.MPQTool.StormLibWrapper.ErrorHandler" Collapsed="true">
+    <Position X="11" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>StormLibWrapper\ErrorHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.MPQTool.StormLibWrapper.MpqArchive" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAACCQAAAIEBAACAAAAAAgAAFAAQAQSAACAAAU=</HashCode>
+      <FileName>StormLibWrapper\MpqArchive.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WCell.MPQTool.StormLibWrapper.MpqFile" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAACAAgACAACAAoAAAAAAAAAAACAQAAACAAAA=</HashCode>
+      <FileName>StormLibWrapper\MpqFile.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WCell.MPQTool.StormLibWrapper.MpqStream" Collapsed="true">
+    <Position X="9.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgCAAQAAgGCAAIABgAAAAAAAAAAAAAAEIECA=</HashCode>
+      <FileName>StormLibWrapper\MpqStream.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.MPQTool.StormLibWrapper.NativeMethods" Collapsed="true">
+    <Position X="14.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABIQASAABAASAIAAACAAABARAIAABAAICQAIIAAYhA=</HashCode>
+      <FileName>StormLibWrapper\NativeMethods.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.MPQTool.StormLibWrapper.StormLibException" Collapsed="true">
+    <Position X="9.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAIAAAAIAAAAAA=</HashCode>
+      <FileName>StormLibWrapper\StormLibException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="MpqReader.MpqHeader" Collapsed="true">
+    <Position X="12.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAQAgEAAAAAAAAAAQAgIAAABAAAAASAAAAA=</HashCode>
+      <FileName>SCSharp.Mpq\MpqStructs.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="MpqReader.MpqHash" Collapsed="true">
+    <Position X="11" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAQgIAAAAgBAAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SCSharp.Mpq\MpqStructs.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="MpqReader.MpqBlock" Collapsed="true">
+    <Position X="9.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAQACAAgABAAAIAAAAAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SCSharp.Mpq\MpqStructs.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="WCell.MPQTool.StormLibWrapper.FileFindData" Collapsed="true">
+    <Position X="7.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAABAAAABAAAAAABAAAABAAJoAAAAAAE=</HashCode>
+      <FileName>StormLibWrapper\FileFindData.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="SCSharp.MpqResource" Collapsed="true">
+    <Position X="7.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SCSharp.Mpq\Mpq.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="WCell.MPQTool.DBC.CellType" Collapsed="true">
+    <Position X="7.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAABAAQQAAAAAABAACAAAAAAAAAAAgACA=</HashCode>
+      <FileName>DBC\CellType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="WCell.MPQTool.DBC.Compare.CompareResultType" Collapsed="true">
+    <Position X="9.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgIAAAAAAAACAAAAAAAAEAAAAAAAAIAAAAAAAAAgA=</HashCode>
+      <FileName>DBC\Compare\CompareResultType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MpqReader.MpqFileFlags" Collapsed="true">
+    <Position X="14.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gABAAAADAAAAAACABAEAAAAAEAAAAAAAAAEAAIEAAAA=</HashCode>
+      <FileName>SCSharp.Mpq\MpqStructs.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MpqReader.MpqFileCompression" Collapsed="true">
+    <Position X="12.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABECAAAAAAAAAIAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>SCSharp.Mpq\MpqStructs.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MpqReader.CompressionType" Collapsed="true">
+    <Position X="11" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>SCSharp.Mpq\PKLibDecompress.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="WCell.MPQTool.StormLibWrapper.OpenArchiveFlags" Collapsed="true">
+    <Position X="7.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAgABAAgAAAAAkAAAAAAACAAAABBg=</HashCode>
+      <FileName>StormLibWrapper\OpenEnumFlags.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="WCell.MPQTool.StormLibWrapper.OpenFileFlags" Collapsed="true">
+    <Position X="9.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAgAAAAAAAAAAAAAAACIAAAAAAAA=</HashCode>
+      <FileName>StormLibWrapper\OpenFileFlags.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="WCell.MPQTool.DBC.CellReader" Collapsed="true">
+    <Position X="7.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAAACAAAAAAAAAIEAAAAAAA=</HashCode>
+      <FileName>DBC\CellReaders.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

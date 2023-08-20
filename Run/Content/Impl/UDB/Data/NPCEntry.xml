@@ -57,8 +57,8 @@
       <Column Name="resistance5"/>
       <Column Name="resistance6"/>
     </FlatArray>
-    <Flat Name="AllianceFactionId" Column="faction_A" />
-    <Flat Name="HordeFactionId" Column="faction_H" />
+    <Flat Name="AllianceFactionId" Column="Faction_A" />
+    <Flat Name="HordeFactionId" Column="Faction_H" />
     <Flat Name="NPCFlags" Column="npcflag" />
     <Flat Name="UnitFlags" Column="unit_flags" />
     <Flat Name="DynamicFlags" Column="dynamicflags" />

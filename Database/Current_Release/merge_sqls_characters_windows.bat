@@ -1,0 +1,1 @@
+copy /a Updates\characters\*.sql /b ALL_characters_updates.sql

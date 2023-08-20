@@ -36,7 +36,7 @@ namespace WCell.RealmServer.Spells
 	/// </summary>
 	public abstract class SpellEffectHandler
 	{
-		private static readonly Logger log = LogManager.GetCurrentClassLogger();
+		protected static readonly Logger log = LogManager.GetCurrentClassLogger();
 
 		public readonly SpellEffect Effect;
 

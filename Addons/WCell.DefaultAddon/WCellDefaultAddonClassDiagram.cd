@@ -1,0 +1,1905 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="WCell.Addons.Default.Battlegrounds.AlteracValley.AlteracValley" Collapsed="true">
+    <Position X="24.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACBAAAQBABAAEAAMMACABBAAgBAIAIAAIIAACAEAAA=</HashCode>
+      <FileName>Battlegrounds\AlteracValley\AlteracValley.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Battlegrounds.AlteracValley.AVFaction" Collapsed="true">
+    <Position X="19.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAgAQAAEBAAAQAAAAAAAAAUAAAAAAAAgA=</HashCode>
+      <FileName>Battlegrounds\AlteracValley\AVFaction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Battlegrounds.AlteracValley.AVStats" Collapsed="true">
+    <Position X="21" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Battlegrounds\AlteracValley\AVStats.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Battlegrounds.AlteracValley.AlteracTower" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="22.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAEAAAAAAAAAAiAQAAAAAQAIABAAAIESBCAAAAAAAA=</HashCode>
+      <FileName>Battlegrounds\AlteracValley\AVTower.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WCell.Addons.Default.Battlegrounds.ArathiBasin.ArathiBase" Collapsed="true">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QABExxAEIAAACAgBAAAIGEIEAgBgQAMNSFGDJBAAAAQ=</HashCode>
+      <FileName>Battlegrounds\ArathiBasin\ArathiBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Battlegrounds.ArathiBasin.ArathiBasin" Collapsed="true">
+    <Position X="31.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQQKAQEUDgAAAAIBWOAGAh9CAABAKAAAAqAACCPeAAA=</HashCode>
+      <FileName>Battlegrounds\ArathiBasin\ArathiBasin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Battlegrounds.ArathiBasin.ArathiStats" Collapsed="true">
+    <Position X="33.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAACAAAAAAAAACAAAAAQAA=</HashCode>
+      <FileName>Battlegrounds\ArathiBasin\ArathiStats.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Battlegrounds.ArathiBasin.Stables" Collapsed="true">
+    <Position X="0.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Battlegrounds\ArathiBasin\Bases\Stables.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Battlegrounds.ArathiBasin.Bases.Blacksmith" Collapsed="true">
+    <Position X="3" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Battlegrounds\ArathiBasin\Bases\Blacksmith.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Battlegrounds.ArathiBasin.Bases.Farm" Collapsed="true">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Battlegrounds\ArathiBasin\Bases\Farm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Battlegrounds.ArathiBasin.Bases.GoldMine" Collapsed="true">
+    <Position X="7.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Battlegrounds\ArathiBasin\Bases\GoldMine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Battlegrounds.ArathiBasin.Bases.LumberMill" Collapsed="true">
+    <Position X="9.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Battlegrounds\ArathiBasin\Bases\LumberMill.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Battlegrounds.BladesEdgeArena" Collapsed="true">
+    <Position X="36.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Battlegrounds\BladesEdgeArena.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Battlegrounds.DalaranSewers" Collapsed="true">
+    <Position X="28" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Battlegrounds\DalaranSewers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Battlegrounds.EyeOfTheStorm" Collapsed="true">
+    <Position X="19.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Battlegrounds\EyeOfTheStorm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Battlegrounds.NagrandArena" Collapsed="true">
+    <Position X="36.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Battlegrounds\NagrandArena.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Battlegrounds.RuinsOfLordaeron" Collapsed="true">
+    <Position X="24.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Battlegrounds\RuinsOfLordaeron.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Battlegrounds.StrandOfTheAncients" Collapsed="true">
+    <Position X="38.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Battlegrounds\StrandOfTheAncients.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Battlegrounds.TheRingOfValor" Collapsed="true">
+    <Position X="28" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Battlegrounds\TheRingOfValor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Battlegrounds.WarsongGulch.Silverwing" Collapsed="true">
+    <Position X="0.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAQAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Battlegrounds\WarsongGulch\Silverwing.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WCell.Addons.Default.Battlegrounds.WarsongGulch.SummonFlagEffectHandler" Collapsed="true">
+    <Position X="15.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Battlegrounds\WarsongGulch\SummonFlagEffectHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Battlegrounds.WarsongGulch.WarsongClan" Collapsed="true">
+    <Position X="2.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAQAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Battlegrounds\WarsongGulch\WarsongClan.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WCell.Addons.Default.Battlegrounds.WarsongGulch.WarsongFlagsHandler" Collapsed="true">
+    <Position X="21" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAQIAAAAAAAAA=</HashCode>
+      <FileName>Battlegrounds\WarsongGulch\WarsongFlagsHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Battlegrounds.WarsongGulch.WarsongGulch" Collapsed="true">
+    <Position X="22.75" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gCAMCQAcxABAgAABkIAiXBCmRwBQYAgQAOBiCidUAAA=</HashCode>
+      <FileName>Battlegrounds\WarsongGulch\WarsongGulch.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Battlegrounds.WarsongGulch.WSGFaction" Collapsed="true">
+    <Position X="1.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAYAAACAkCoggAgEIAFAQAyBGAIBCLGAUCAAAICAAAA=</HashCode>
+      <FileName>Battlegrounds\WarsongGulch\WSGFaction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Battlegrounds.WarsongGulch.FlagCapture" Collapsed="true">
+    <Position X="24.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAQAAAAAAAAAAAAAEAAQAAAAAAAQ=</HashCode>
+      <FileName>Battlegrounds\WarsongGulch\WSGFaction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Battlegrounds.WarsongGulch.WSGStats" Collapsed="true">
+    <Position X="31.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAACAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>Battlegrounds\WarsongGulch\WSGStats.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Commands.SampleCommand" Collapsed="true">
+    <Position X="28" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAQAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\AddonDevCommands.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Commands.TeleSpellCommand" Collapsed="true">
+    <Position X="33.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAgAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\TeleSpellCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.DefaultAddon" Collapsed="true">
+    <Position X="19.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAgAAIgAAABAQAAIAQAIAAQAACAAABAAA=</HashCode>
+      <FileName>DefaultAddon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Events.DarkmoonFaireBlastenheimer" Collapsed="true">
+    <Position X="29.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAIAAGAAQAAAAEAAAgCAQRAAQAAAAAAAgAAAgQABA=</HashCode>
+      <FileName>Events\DarkmoonFaire.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Events.DarkmoonFaireSteamTonks" Collapsed="true">
+    <Position X="31.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAgAAAAAAIAAAAAAAAAAAECIAAAAkAAAAQAAAQBAA=</HashCode>
+      <FileName>Events\DarkmoonFaire.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Gossip.GuardGossip.Alliance.AllianceTowns" Collapsed="true">
+    <Position X="19.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Gossip\Guard Gossip\Alliance\AllianceTowns.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Gossip.GuardGossip.Alliance.Darnassus" Collapsed="true">
+    <Position X="33.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Gossip\Guard Gossip\Alliance\Darnassus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Gossip.GuardGossip.Alliance.Ironforge" Collapsed="true">
+    <Position X="26.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Gossip\Guard Gossip\Alliance\Ironforge.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Gossip.GuardGossip.Alliance.Stormwind" Collapsed="true">
+    <Position X="35" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Gossip\Guard Gossip\Alliance\Stormwind.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Gossip.Guard_Gossip.Alliance.Exodar" Collapsed="true">
+    <Position X="17.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Gossip\Guard Gossip\Alliance\Exodar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Gossip.GuardGossip.Horde.Orgrimmar" Collapsed="true">
+    <Position X="22.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Gossip\Guard Gossip\Horde\Orgrimmar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Gossip.GuardGossip.Horde.Silvermoon" Collapsed="true">
+    <Position X="22.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Gossip\Guard Gossip\Horde\Silvermoon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Gossip.GuardGossip.Horde.Undercity" Collapsed="true">
+    <Position X="19.25" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Gossip\Guard Gossip\Horde\Undercity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Gossip.Guard_Gossip.Horde.ThunderBluff" Collapsed="true">
+    <Position X="35" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Gossip\Guard Gossip\Horde\ThunderBluff.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Gossip.GuardGossip.Neutral.Shattrath" Collapsed="true">
+    <Position X="19.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Gossip\Guard Gossip\Neutral\Shattrath.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Gossip.World_Gossip.Tiare" Collapsed="true">
+    <Position X="36.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Gossip\World Gossip\BoreanTundraGossip.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Gossip.World_Gossip.TanarisGossips" Collapsed="true">
+    <Position X="26.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Gossip\World Gossip\TanarisGossip.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.BlackrockDepths" Collapsed="true">
+    <Position X="29.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\Eastern Kingdoms\BlackrockDepths.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.BlackrockSpire" Collapsed="true">
+    <Position X="31.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\Eastern Kingdoms\BlackrockSpire.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.BlackwingLair" Collapsed="true">
+    <Position X="35" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\Eastern Kingdoms\BlackwingLair.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.Deadmines" Collapsed="true">
+    <Position X="35" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gACAAAAAQAKAAAAAAAAAEAIIAABAACiCAEAAAAAQQAA=</HashCode>
+      <FileName>Instances\Eastern Kingdoms\Deadmines.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.RhahkzorBrain" Collapsed="true">
+    <Position X="14" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAAgAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Instances\Eastern Kingdoms\Deadmines.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.GilnidAttackAction" Collapsed="true">
+    <Position X="28" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\Eastern Kingdoms\Deadmines.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.SmiteAttackAction" Collapsed="true">
+    <Position X="24.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAQACAgAAAAAAAAAAABAAAAAANgAAAACA=</HashCode>
+      <FileName>Instances\Eastern Kingdoms\Deadmines.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.SmiteBrain" Collapsed="true">
+    <Position X="26.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\Eastern Kingdoms\Deadmines.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.Gnomeregan" Collapsed="true">
+    <Position X="29.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\Eastern Kingdoms\Gnomeregan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.Karazhan" Collapsed="true">
+    <Position X="35" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\Eastern Kingdoms\Karazhan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.MagistersTerrace" Collapsed="true">
+    <Position X="19.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\Eastern Kingdoms\MagistersTerrace.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.MoltenCore" Collapsed="true">
+    <Position X="35" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\Eastern Kingdoms\MoltenCore.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.ScarletMonastery" Collapsed="true">
+    <Position X="33.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oACAACQAAACACAAAIAhAAAAAAAAAAACAAAAAAABAAAA=</HashCode>
+      <FileName>Instances\Eastern Kingdoms\ScarletMonastery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.InterrogatorVishasAttackAction" Collapsed="true">
+    <Position X="22.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Instances\Eastern Kingdoms\ScarletMonastery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.InterrogatorVishasBrain" Collapsed="true">
+    <Position X="24.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Instances\Eastern Kingdoms\ScarletMonastery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.BloodmageThalnosAttackAction" Collapsed="true">
+    <Position X="38.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Instances\Eastern Kingdoms\ScarletMonastery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.BloodmageThalnosBrain" Collapsed="true">
+    <Position X="12.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Instances\Eastern Kingdoms\ScarletMonastery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.ScornBrain" Collapsed="true">
+    <Position X="36.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\Eastern Kingdoms\ScarletMonastery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.HoundmasterLokseyBrain" Collapsed="true">
+    <Position X="29.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\Eastern Kingdoms\ScarletMonastery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.ArcanistDoanAttackAction" Collapsed="true">
+    <Position X="35" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAIAAAAAAAAAAAIAAAAAAAAAAAgEAAAAAAA=</HashCode>
+      <FileName>Instances\Eastern Kingdoms\ScarletMonastery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.ArcanistDoanBrain" Collapsed="true">
+    <Position X="36.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\Eastern Kingdoms\ScarletMonastery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.HerodAttackAction" Collapsed="true">
+    <Position X="19.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQAAABAACBAAAEAAIAAAAAAAAAAAAAABAAEAAAABAA=</HashCode>
+      <FileName>Instances\Eastern Kingdoms\ScarletMonastery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.HerodBrain" Collapsed="true">
+    <Position X="21" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAgAAgAAAAA=</HashCode>
+      <FileName>Instances\Eastern Kingdoms\ScarletMonastery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.HighInquisitorFairbanksAttackAction" Collapsed="true">
+    <Position X="22.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAABAAAAACAAAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Instances\Eastern Kingdoms\ScarletMonastery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.HighInquisitorFairbanksBrain" Collapsed="true">
+    <Position X="24.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\Eastern Kingdoms\ScarletMonastery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.ScarletCommanderMograineBrain" Collapsed="true">
+    <Position X="31.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAAgAAAEAAAgBAAAAAAA=</HashCode>
+      <FileName>Instances\Eastern Kingdoms\ScarletMonastery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.HighInquisitorWhitemaneAttackAction" Collapsed="true">
+    <Position X="26.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAACAAAAAAAAgIAAAAIAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Instances\Eastern Kingdoms\ScarletMonastery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.HighInquisitorWhitemaneBrain" Collapsed="true">
+    <Position X="28" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Instances\Eastern Kingdoms\ScarletMonastery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.Scholomance" Collapsed="true">
+    <Position X="35" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\Eastern Kingdoms\Scholomance.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.ShadowfangKeep" Collapsed="true">
+    <Position X="12.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gACAAIBABAAAAAAEAACBQAAAAAAAAAAABAAAAAAAARA=</HashCode>
+      <FileName>Instances\Eastern Kingdoms\ShadowfangKeep.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.RethilgoreBrain" Collapsed="true">
+    <Position X="36.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Instances\Eastern Kingdoms\ShadowfangKeep.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.FenrusBrain" Collapsed="true">
+    <Position X="21" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Instances\Eastern Kingdoms\ShadowfangKeep.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.Stratholme" Collapsed="true">
+    <Position X="12.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\Eastern Kingdoms\Stratholme.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.SunkenTemple" Collapsed="true">
+    <Position X="19.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\Eastern Kingdoms\SunkenTemple.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.TheStockades" Collapsed="true">
+    <Position X="31.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gACAAAAJAAAAAAAAQAACAAAAAAAAAAACAAQAQAAAEAA=</HashCode>
+      <FileName>Instances\Eastern Kingdoms\TheStockades.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.KamdeepfuryAttackAction" Collapsed="true">
+    <Position X="33.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAABCAAAAEBCAAAAACAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Instances\Eastern Kingdoms\TheStockades.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.HamhockAttackAction" Collapsed="true">
+    <Position X="12.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAUAAAAAACAAAAEAAAAAAACBAABABAAAAAAEAAAABAA=</HashCode>
+      <FileName>Instances\Eastern Kingdoms\TheStockades.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.BazilThreddAttackAction" Collapsed="true">
+    <Position X="24.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQCAEAAACAAAAEAAAAAAACAAAAAAAAAAAAAAEAABAA=</HashCode>
+      <FileName>Instances\Eastern Kingdoms\TheStockades.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.DextrenAttackAction" Collapsed="true">
+    <Position X="22.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAUAAAABAACAAAAAAAAQAAAAAAAABAA=</HashCode>
+      <FileName>Instances\Eastern Kingdoms\TheStockades.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.InmateAttackAction" Collapsed="true">
+    <Position X="15.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQCAAAgACAAAAEAAAAAAACAAAACAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Instances\Eastern Kingdoms\TheStockades.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.InsurgentAttackAction" Collapsed="true">
+    <Position X="21" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAEAAAAAAACBAAAAAAAAAEAEAAAABAA=</HashCode>
+      <FileName>Instances\Eastern Kingdoms\TheStockades.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.PrisonerAttackAction" Collapsed="true">
+    <Position X="15.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAABIACCAAAEAAAAAAACAAAAAAAAAAAAAACAABAA=</HashCode>
+      <FileName>Instances\Eastern Kingdoms\TheStockades.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.ConvictAttackAction" Collapsed="true">
+    <Position X="26.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAEAAAAAQACAAAIAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Instances\Eastern Kingdoms\TheStockades.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.TheSunwell" Collapsed="true">
+    <Position X="33.25" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\Eastern Kingdoms\TheSunwell.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.Uldaman" Collapsed="true">
+    <Position X="15.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\Eastern Kingdoms\Uldaman.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.ZulAman" Collapsed="true">
+    <Position X="35" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\Eastern Kingdoms\ZulAman.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.ZulGurub" Collapsed="true">
+    <Position X="38.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\Eastern Kingdoms\ZulGurub.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.AhnQirajTemple" Collapsed="true">
+    <Position X="17.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\Kalimdor\AhnQirajTemple.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.BlackfathomDeeps" Collapsed="true">
+    <Position X="28" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BACAAAAAAAAAAAAAAAQAAAAAAABAAAAAAACAACAAAAA=</HashCode>
+      <FileName>Instances\Kalimdor\BlackfathomDeeps.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.DireMaul" Collapsed="true">
+    <Position X="24.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\Kalimdor\DireMaul.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.Maraudon" Collapsed="true">
+    <Position X="22.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\Kalimdor\Maraudon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.OnyxiasLair" Collapsed="true">
+    <Position X="19.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\Kalimdor\OnyxiasLair.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.OpeningOfTheDarkPortal" Collapsed="true">
+    <Position X="21" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\Kalimdor\OpeningOfTheDarkPortal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.RagefireChasm" Collapsed="true">
+    <Position X="24.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACIAAIAAAAAAAAAEgAAAgAAABQkAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Instances\Kalimdor\RagefireChasm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.OggleflintAttackAction" Collapsed="true">
+    <Position X="17.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\Kalimdor\RagefireChasm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.TaragamanAttackAction" Collapsed="true">
+    <Position X="28" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\Kalimdor\RagefireChasm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.JergoshAttackAction" Collapsed="true">
+    <Position X="31.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\Kalimdor\RagefireChasm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.BazzalanAttackAction" Collapsed="true">
+    <Position X="26.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\Kalimdor\RagefireChasm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.RazorfenDowns" Collapsed="true">
+    <Position X="26.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\Kalimdor\RazorfenDowns.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.RazorfenKraul" Collapsed="true">
+    <Position X="28" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\Kalimdor\RazorfenKraul.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.RuinsOfAhnQiraj" Collapsed="true">
+    <Position X="22.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\Kalimdor\RuinsOfAhnQiraj.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.TheBattleForMountHyjal" Collapsed="true">
+    <Position X="14" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\Kalimdor\TheBattleForMountHyjal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.TheCullingOfStratholme" Collapsed="true">
+    <Position X="15.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\Kalimdor\TheCullingOfStratholme.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.TheEscapeFromDurnholde" Collapsed="true">
+    <Position X="17.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\Kalimdor\TheEscapeFromDurnholde.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.WailingCaverns" Collapsed="true">
+    <Position X="38.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgCIIAgAAAAADIABEAABAYAAAAAIhBAAEAAQCAAAAIA=</HashCode>
+      <FileName>Instances\Kalimdor\WailingCaverns.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.ZulFarrak" Collapsed="true">
+    <Position X="36.75" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\Kalimdor\ZulFarrak.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.AhnKahetTheOldKingdom" Collapsed="true">
+    <Position X="15.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\Northrend\AhnKahetTheOldKingdom.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.AzjolNerub" Collapsed="true">
+    <Position X="22.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\Northrend\AzjolNerub.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.DrakTharonKeep" Collapsed="true">
+    <Position X="31.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\Northrend\DrakTharonKeep.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.Gundrak" Collapsed="true">
+    <Position X="33.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\Northrend\Gundrak.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.HallsOfLightning" Collapsed="true">
+    <Position X="35" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\Northrend\HallsOfLightning.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.HallsOfReflection" Collapsed="true">
+    <Position X="36.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\Northrend\HallsOfReflection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.HallsOfStone" Collapsed="true">
+    <Position X="38.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\Northrend\HallsOfStone.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.IcecrownCitadel" Collapsed="true">
+    <Position X="36.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Instances\Northrend\IcecrownCitadel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.MarrowgarBrain" Collapsed="true">
+    <Position X="28" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\Northrend\IcecrownCitadel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.MarrowgarAIAttackAction" Collapsed="true">
+    <Position X="26.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAACCQAIAUAAAAAAACAQBIDAAAQAAIAEJAjBAA=</HashCode>
+      <FileName>Instances\Northrend\IcecrownCitadel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.Naxxramas" Collapsed="true">
+    <Position X="38.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\Northrend\Naxxramas.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.PitOfSaron" Collapsed="true">
+    <Position X="31.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\Northrend\PitOfSaron.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.TheEyeOfEternity" Collapsed="true">
+    <Position X="19.25" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\Northrend\TheEyeOfEternity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.TheForgeOfSouls" Collapsed="true">
+    <Position X="21" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\Northrend\TheForgeOfSouls.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.TheNexus" Collapsed="true">
+    <Position X="22.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\Northrend\TheNexus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.TheObsidianSanctum" Collapsed="true">
+    <Position X="24.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\Northrend\TheObsidianSanctum.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.TheOculus" Collapsed="true">
+    <Position X="26.25" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\Northrend\TheOculus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.TheRubySanctum" Collapsed="true">
+    <Position X="29.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\Northrend\TheRubySanctum.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.TrialOfTheChampion" Collapsed="true">
+    <Position X="12.25" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BACAIAECAgAAAAgQAAAAIgAAAFAAAIAAAAgAAQAcAAA=</HashCode>
+      <FileName>Instances\Northrend\TrialOfTheChampion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.TrialOfTheCrusader" Collapsed="true">
+    <Position X="14" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\Northrend\TrialOfTheCrusader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.Ulduar" Collapsed="true">
+    <Position X="17.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\Northrend\Ulduar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.UtgardeKeep" Collapsed="true">
+    <Position X="24.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gACABAIBhQAAAAAAAAAgAAAAAAAAIFAAAIIgAAAAAFA=</HashCode>
+      <FileName>Instances\Northrend\UtgardeKeep.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.UtgardePinnacle" Collapsed="true">
+    <Position X="26.25" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YACACAAAEAKAAAACAAgAQAAAAAAAAAAAAEAAEAACAAA=</HashCode>
+      <FileName>Instances\Northrend\UtgardePinnacle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.VaultOfArchavon" Collapsed="true">
+    <Position X="28" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\Northrend\VaultOfArchavon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.VioletHold" Collapsed="true">
+    <Position X="36.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\Northrend\VioletHold.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.AuchindounAuchenaiCrypts" Collapsed="true">
+    <Position X="38.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\Outland\AuchindounAuchenaiCrypts.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.AuchindounManaTombs" Collapsed="true">
+    <Position X="12.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IACAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>Instances\Outland\AuchindounManaTombs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.AuchindounSethekkHalls" Collapsed="true">
+    <Position X="14" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\Outland\AuchindounSethekkHalls.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.AuchindounShadowLabyrinth" Collapsed="true">
+    <Position X="15.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\Outland\AuchindounShadowLabyrinth.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.BlackTemple" Collapsed="true">
+    <Position X="33.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\Outland\BlackTemple.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.CoilfangSerpentshrineCavern" Collapsed="true">
+    <Position X="19.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\Outland\CoilfangSerpentshrineCavern.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.CoilfangTheSlavePens" Collapsed="true">
+    <Position X="21" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\Outland\CoilfangTheSlavePens.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.CoilfangTheSteamvault" Collapsed="true">
+    <Position X="22.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\Outland\CoilfangTheSteamvault.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.CoilfangTheUnderbog" Collapsed="true">
+    <Position X="24.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\Outland\CoilfangTheUnderbog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.GruulsLair" Collapsed="true">
+    <Position X="31.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\Outland\GruulsLair.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.HellfireCitadelRamparts" Collapsed="true">
+    <Position X="14" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\Outland\HellfireCitadelRamparts.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.HellfireCitadelTheBloodFurnace" Collapsed="true">
+    <Position X="15.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\Outland\HellfireCitadelTheBloodFurnace.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.HellfireCitadelTheShatteredHalls" Collapsed="true">
+    <Position X="17.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\Outland\HellfireCitadelTheShatteredHalls.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.MagtheridonsLair" Collapsed="true">
+    <Position X="21" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\Outland\MagtheridonsLair.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.TempestKeep" Collapsed="true">
+    <Position X="35" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\Outland\TempestKeep.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.TempestKeepTheArcatraz" Collapsed="true">
+    <Position X="36.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\Outland\TempestKeepTheArcatraz.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.TempestKeepTheBotanica" Collapsed="true">
+    <Position X="38.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\Outland\TempestKeepTheBotanica.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.TempestKeepTheMechanar" Collapsed="true">
+    <Position X="12.25" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\Outland\TempestKeepTheMechanar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.CashTest" Collapsed="true">
+    <Position X="14" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\World\CashTest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.EmeraldDream" Collapsed="true">
+    <Position X="15.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\World\EmeraldDream.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.StormwindStockade" Collapsed="true">
+    <Position X="36.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\World\StormwindStockade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.SunwellFixUnused" Collapsed="true">
+    <Position X="21" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\World\SunwellFixUnused.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.UnusedMonastery" Collapsed="true">
+    <Position X="21" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\World\UnusedMonastery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Instances.WintergraspRaid" Collapsed="true">
+    <Position X="29.75" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\World\WintergraspRaid.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Items.PlayerAbilityItemFixes" Collapsed="true">
+    <Position X="33.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Items\PlayerAbilityItemFixes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Lang.DefaultAddonLocalizer" Collapsed="true">
+    <Position X="21" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAABAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Lang\DefaultAddonLocalizer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.MiscFixes.ClassFixes" Collapsed="true">
+    <Position X="15.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>MiscFixes\ClassFixes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.MiscFixes.RaceFixes" Collapsed="true">
+    <Position X="22.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MiscFixes\RaceFixes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.MiscFixes.ShapeshiftFixes" Collapsed="true">
+    <Position X="15.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>MiscFixes\ShapeshiftFixes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.NPCs.DKAcherusCorrections" Collapsed="true">
+    <Position X="29.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>NPCs\DKAcherusCorrections.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.NPCs.UnworthyInitiateAttackAction" Collapsed="true">
+    <Position X="22.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NPCs\DKAcherusCorrections.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.NPCs.NPCCorrections" Collapsed="true">
+    <Position X="14" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAUAAAQAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>NPCs\NPCCorrections.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Quests.DeathKnightQuests" Collapsed="true">
+    <Position X="15.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAYIAwEABAAAAAAgAAAQgEAAAAAQACABgAQQCAg=</HashCode>
+      <FileName>Quests\DeathKnightQuests.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Quests.ReturnEyeOfAcherusSpellEffectHandler" Collapsed="true">
+    <Position X="38.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Quests\DeathKnightQuests.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Quests.SummonGhoulsSpellEffectHandler" Collapsed="true">
+    <Position X="17.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Quests\DeathKnightQuests.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Quests.EmblazonRuneBladeAuraHandler" Collapsed="true">
+    <Position X="14" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Quests\DeathKnightQuests.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Samples.AmbusherQuestSample" Collapsed="true">
+    <Position X="26.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAQAAAAAIAEBAAAAAAAAAABAAAAAAAAAACAAA=</HashCode>
+      <FileName>Samples\AmbusherQuestSample.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Samples.MixedSamples" Collapsed="true">
+    <Position X="33.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAgAAAgAAAAACQQAAAAIAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Samples\MixedSamples.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Samples.SampleNPCs" Collapsed="true">
+    <Position X="29.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Samples\SampleNPCs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Spells.DeathKnight.DeathKnightBloodFixes" Collapsed="true">
+    <Position X="36.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAABAAAAAAAAAAAAgAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Spells\DeathKnight\DeathKnightBloodFixes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Spells.DeathKnight.SpellDeflectionHandler" Collapsed="true">
+    <Position X="28" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Spells\DeathKnight\DeathKnightBloodFixes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Spells.DeathKnight.SuddenDoomAuraHandler" Collapsed="true">
+    <Position X="14" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Spells\DeathKnight\DeathKnightBloodFixes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Spells.DeathKnight.MarkOfBloodAuraHandler" Collapsed="true">
+    <Position X="24.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Spells\DeathKnight\DeathKnightBloodFixes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Spells.DeathKnight.DeathKnightDiseases" Collapsed="true">
+    <Position X="38.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAQAAAAACAAAAIAAAAAACAAAAAAAAAAAAAADBAA=</HashCode>
+      <FileName>Spells\DeathKnight\DeathKnightDiseases.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Spells.DeathKnight.WeaponDiseaseDamagePercentHandler" Collapsed="true">
+    <Position X="26.25" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Spells\DeathKnight\DeathKnightDiseases.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Spells.DeathKnight.WeaponDiseaseDamageHalfPercentHandler" Collapsed="true">
+    <Position X="24.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Spells\DeathKnight\DeathKnightDiseases.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Spells.DeathKnight.DeathKnightFixes" Collapsed="true">
+    <Position X="12.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAACAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Spells\DeathKnight\DeathKnightFixes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Spells.DeathKnight.DeathKnightFrostFixes" Collapsed="true">
+    <Position X="14" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAQAAABEAAAAAAEAAJAAAACEAAAAAAAAAAAgBAA=</HashCode>
+      <FileName>Spells\DeathKnight\DeathKnightFrostFixes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Spells.DeathKnight.DeathKnightUnholyFixes" Collapsed="true">
+    <Position X="17.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEABAQIAAAAAAAAMwAAACAAAAAAAAAgAAAAAAggAAA=</HashCode>
+      <FileName>Spells\DeathKnight\DeathKnightUnholyFixes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Spells.DeathKnight.ProcOnDiseaseTriggerSpellHandler" Collapsed="true">
+    <Position X="17.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Spells\DeathKnight\ProcOnDiseaseTriggerSpellHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Spells.Druid.DruidBalanceFixes" Collapsed="true">
+    <Position X="33.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Spells\Druid\DruidBalanceFixes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Spells.Druid.InnervateHandler" Collapsed="true">
+    <Position X="19.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Spells\Druid\DruidBalanceFixes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Spells.Druid.InnervateGlyphHandler" Collapsed="true">
+    <Position X="17.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Spells\Druid\DruidBalanceFixes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Spells.Druid.ISWrathHandler" Collapsed="true">
+    <Position X="29.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Spells\Druid\DruidBalanceFixes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Spells.Druid.ISStarfireHandler" Collapsed="true">
+    <Position X="28" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Spells\Druid\DruidBalanceFixes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Spells.Druid.DruidEclipseHandler" Collapsed="true">
+    <Position X="35" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAIAAAAAAAAAAAAAAAABgAAAAAAQACAEACA=</HashCode>
+      <FileName>Spells\Druid\DruidBalanceFixes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Spells.Druid.StarfallAuraHandler" Collapsed="true">
+    <Position X="31.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Spells\Druid\DruidBalanceFixes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Spells.Druid.StarfallCountTriggerHandler" Collapsed="true">
+    <Position X="33.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAQAIAAA=</HashCode>
+      <FileName>Spells\Druid\DruidBalanceFixes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Spells.Druid.DruidFeralCombatFixes" Collapsed="true">
+    <Position X="36.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAQAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Spells\Druid\DruidFeralCombatFixes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Spells.Druid.FerociousBiteHandler" Collapsed="true">
+    <Position X="22.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Spells\Druid\DruidFeralCombatFixes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Spells.Druid.FrenziedGenerationHandler" Collapsed="true">
+    <Position X="26.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Spells\Druid\DruidFeralCombatFixes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Spells.Druid.AddBleedWeaponDamageHandler" Collapsed="true">
+    <Position X="12.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Spells\Druid\DruidFeralCombatFixes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Spells.Druid.ImprovedLeaderOfThePackProcHandler" Collapsed="true">
+    <Position X="12.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Spells\Druid\DruidFeralCombatFixes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Spells.Druid.SurvivalOfTheFittestHandler" Collapsed="true">
+    <Position X="22.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEIAAAA=</HashCode>
+      <FileName>Spells\Druid\DruidFeralCombatFixes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Spells.Druid.DruidFixes" Collapsed="true">
+    <Position X="38.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Spells\Druid\DruidFixes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Spells.Druid.TrackHumanoidsHandler" Collapsed="true">
+    <Position X="38.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Spells\Druid\DruidFixes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Spells.Druid.DruidRestorationFixes" Collapsed="true">
+    <Position X="12.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Spells\Druid\DruidRestorationFixes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Spells.Druid.LifebloomHandler" Collapsed="true">
+    <Position X="36.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Spells\Druid\DruidRestorationFixes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Spells.Druid.NourishHandler" Collapsed="true">
+    <Position X="12.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAgAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Spells\Druid\DruidRestorationFixes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Spells.Druid.RevitalizeHandler" Collapsed="true">
+    <Position X="12.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Spells\Druid\DruidRestorationFixes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Spells.Druid.LivingSeedHandler" Collapsed="true">
+    <Position X="38.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAIAQAAAAAAA=</HashCode>
+      <FileName>Spells\Druid\DruidRestorationFixes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Spells.Druid.WildGrowthHandler" Collapsed="true">
+    <Position X="28" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Spells\Druid\DruidRestorationFixes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Spells.Druid.SwiftmendHandler" Collapsed="true">
+    <Position X="24.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAgAAAAAAAAAAAAAAAAAAAAAgAgAAAAAA=</HashCode>
+      <FileName>Spells\Druid\DruidRestorationFixes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Spells.Druid.AddTargetAuraStateHandler" Collapsed="true">
+    <Position X="14" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAABAAAAAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>Spells\Druid\DruidRestorationFixes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Spells.Hunter.HunterFixes" Collapsed="true">
+    <Position X="31.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Spells\Hunter\HunterFixes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Spells.Hunter.HunterMarkmanship" Collapsed="true">
+    <Position X="33.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Spells\Hunter\HunterMarkmanshipFixes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Spells.Hunter.ReadinessHandler" Collapsed="true">
+    <Position X="29.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Spells\Hunter\HunterMarkmanshipFixes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Spells.Hunter.HunterSurvival" Collapsed="true">
+    <Position X="35" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Spells\Hunter\HunterSurvivalFixes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Spells.Mage.MageArcaneFixes" Collapsed="true">
+    <Position X="12.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Spells\Mage\MageArcaneFixes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Spells.Mage.MageFireFixes" Collapsed="true">
+    <Position X="14" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Spells\Mage\MageFireFixes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Spells.Mage.MageFixes" Collapsed="true">
+    <Position X="15.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Spells\Mage\MageFixes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Spells.Mage.MageFrostFixes" Collapsed="true">
+    <Position X="17.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Spells\Mage\MageFrostFixes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Spells.MiscSpells" Collapsed="true">
+    <Position X="31.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAAAAAAACAAAAAAAgAAA=</HashCode>
+      <FileName>Spells\MiscSpells.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Spells.NPCSpells" Collapsed="true">
+    <Position X="15.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAQAACAAAAA=</HashCode>
+      <FileName>Spells\NPCSpells.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Spells.PlayerSpells" Collapsed="true">
+    <Position X="35" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAIAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Spells\PlayerSpells.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Spells.QuestSpells" Collapsed="true">
+    <Position X="21" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAAAAAAAQgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Spells\QuestSpells.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Spells.VehicleSpells" Collapsed="true">
+    <Position X="35" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Spells\VehicleSpells.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Spells.Paladin.PaladinFixes" Collapsed="true">
+    <Position X="24.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAABAAAAACAAAIAAEAACAAA=</HashCode>
+      <FileName>Spells\Paladin\PaladinFixes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Spells.Paladin.PaladinHolyFixes" Collapsed="true">
+    <Position X="26.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Spells\Paladin\PaladinHolyFixes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Spells.Paladin.IlluminationHandler" Collapsed="true">
+    <Position X="38.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Spells\Paladin\PaladinHolyFixes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Spells.Paladin.ApplySelfForbearanceHandler" Collapsed="true">
+    <Position X="29.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Spells\Paladin\PaladinHolyFixes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Spells.Paladin.SacredShieldHandler" Collapsed="true">
+    <Position X="26.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Spells\Paladin\PaladinHolyFixes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Spells.Paladin.PaladinProtectionFixes" Collapsed="true">
+    <Position X="28" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Spells\Paladin\PaladinProtectionFixes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Spells.Paladin.SpiritualAttunementHandler" Collapsed="true">
+    <Position X="29.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Spells\Paladin\PaladinProtectionFixes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Spells.Paladin.ShieldOfRighteousnessHandler" Collapsed="true">
+    <Position X="21" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Spells\Paladin\PaladinProtectionFixes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Spells.Paladin.PaladinRetributionFixes" Collapsed="true">
+    <Position X="29.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Spells\Paladin\PaladinRetributionFixes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Spells.Paladin.DivineStormHealHandler" Collapsed="true">
+    <Position X="28" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Spells\Paladin\PaladinRetributionFixes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Spells.Paladin.ReflectDamagePctHandler" Collapsed="true">
+    <Position X="33.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAQACAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Spells\Paladin\PaladinRetributionFixes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Spells.Paladin.SealsAndJudgements" Collapsed="true">
+    <Position X="38.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAkAAAAAQAAAAAAABCAAQEAACAgIABgAAAAAAQA=</HashCode>
+      <FileName>Spells\Paladin\SealsAndJudgements.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Spells.Paladin.AllowJudgementEffectHandler" Collapsed="true">
+    <Position X="21" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAABAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Spells\Paladin\SealsAndJudgements.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Spells.Paladin.ApplyJudgementEffectHandler" Collapsed="true">
+    <Position X="28" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABIAAQAAAAAACAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Spells\Paladin\SealsAndJudgements.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Spells.Priest.PriestFixes" Collapsed="true">
+    <Position X="38.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Spells\Priest\PriestFixes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Spells.Priest.DispelMagicHandler" Collapsed="true">
+    <Position X="26.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Spells\Priest\PriestFixes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Spells.Priest.PriestHolyFixes" Collapsed="true">
+    <Position X="12.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Spells\Priest\PriestHolyFixes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Spells.Priest.PriestShadowFixes" Collapsed="true">
+    <Position X="14" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Spells\Priest\PriestShadowFixes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Spells.Priest.AuraVampiricEmbracerHandler" Collapsed="true">
+    <Position X="17.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Spells\Priest\PriestShadowFixes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Spells.Rogue.RogueCombatFixes" Collapsed="true">
+    <Position X="15.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Spells\Rogue\RogueCombatFixes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Spells.Rogue.ImprovedSprintHandler" Collapsed="true">
+    <Position X="14" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Spells\Rogue\RogueCombatFixes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Spells.Rogue.RogueFixes" Collapsed="true">
+    <Position X="17.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Spells\Rogue\RogueFixes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Spells.Rogue.RogueSubtletyFixes" Collapsed="true">
+    <Position X="21" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Spells\Rogue\RogueSubtletyFixes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Spells.Rogue.CloakOfShadowsHandler" Collapsed="true">
+    <Position X="17.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Spells\Rogue\RogueSubtletyFixes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Spells.Rogue.PreparationHandler" Collapsed="true">
+    <Position X="36.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAEAAAAAAAAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Spells\Rogue\RogueSubtletyFixes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Spells.Rogue.RogueStealthHandler" Collapsed="true">
+    <Position X="19.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Spells\Rogue\RogueSubtletyFixes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Spells.Rogue.MasterOfSubtletyPeriodicHandler" Collapsed="true">
+    <Position X="29.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Spells\Rogue\RogueSubtletyFixes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Spells.Shaman.ShamanFixes" Collapsed="true">
+    <Position X="14" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Spells\Shaman\ShamanFixes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Spells.Warlock.RecallToGOHandler" Collapsed="true">
+    <Position X="31.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAQAAAAAQAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Spells\Warlock\RecallToGOHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Spells.Warlock.WarlockFixes" Collapsed="true">
+    <Position X="12.25" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Spells\Warlock\WarlockFixes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Spells.Warrior.WarriorArmsFixes" Collapsed="true">
+    <Position X="14" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Spells\Warrior\WarriorArmsFixes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Spells.Warrior.ShatteringThrowHandler" Collapsed="true">
+    <Position X="17.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Spells\Warrior\WarriorArmsFixes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Spells.Warrior.ProcStrikeAdditionalTargetHandler" Collapsed="true">
+    <Position X="19.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Spells\Warrior\WarriorArmsFixes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Spells.Warrior.WarriorFixes" Collapsed="true">
+    <Position X="15.75" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Spells\Warrior\WarriorFixes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Spells.Warrior.RetaliationEffectHandler" Collapsed="true">
+    <Position X="35" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAQACAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Spells\Warrior\WarriorFixes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Spells.Warrior.WarriorFuryFixes" Collapsed="true">
+    <Position X="17.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Spells\Warrior\WarriorFuryFixes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Spells.Warrior.WarriorProtectionFixes" Collapsed="true">
+    <Position X="19.25" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Spells\Warrior\WarriorProtectionFixes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Teleport.TeleportNetwork" Collapsed="true">
+    <Position X="29.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAEAABAAEAAABIAAAgAAAABAAAAAEACCAAIAAA=</HashCode>
+      <FileName>Teleport\TeleportNetwork.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Teleport.TeleportNode" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="31.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAhAACADACAAAgAAEAAAAAAQAAAAAEAIAAAAAADAA=</HashCode>
+      <FileName>Teleport\TeleportNode.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WCell.Addons.Default.Teleport.ZeppelinMaster" Collapsed="true">
+    <Position X="33.25" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAADAAAAEAAAg=</HashCode>
+      <FileName>Teleport\ZeppelinMaster.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Vehicles.VehicleCorrections" Collapsed="true">
+    <Position X="29.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAEAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Vehicles\VehicleCorrections.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Vehicles.VehicleData" Collapsed="true">
+    <Position X="31.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AADAAAAgAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Vehicles\VehicleData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Addons.Default.Vehicles.VehicleDataCollection" Collapsed="true">
+    <Position X="33.25" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Vehicles\VehicleData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="WCell.Addons.Default.Battlegrounds.AlteracValley.AVItem" Collapsed="true">
+    <Position X="12.25" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Battlegrounds\AlteracValley\AVItem.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="WCell.Addons.Default.Battlegrounds.AlteracValley.AVBases" Collapsed="true">
+    <Position X="14" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QEIAEAQAgAAQAABAAAAAAICIAAEAAFICAAAAQgAQBIA=</HashCode>
+      <FileName>Battlegrounds\AlteracValley\AVBases.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Steps" Collapsed="true">
+    <Position X="15.75" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ARAAAIBAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAEAAAA=</HashCode>
+      <FileName>Instances\Northrend\TrialOfTheChampion.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="WCell.Addons.Default.Lang.AddonMsgKey" Collapsed="true">
+    <Position X="12.25" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>5gcAiAAkU8nZJTwBsNdh9hHEBhIoSxJmogRQkBZjESE=</HashCode>
+      <FileName>Lang\AddonMsgKey.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="WCell.Addons.Default.Battlegrounds.ArathiBasin.BaseHandler" Collapsed="true">
+    <Position X="12.25" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Battlegrounds\ArathiBasin\ArathiBasin.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="WCell.Addons.Default.Battlegrounds.WarsongGulch.FlagActionHandler" Collapsed="true">
+    <Position X="14" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Battlegrounds\WarsongGulch\WarsongGulch.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

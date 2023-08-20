@@ -291,6 +291,8 @@ namespace WCell.RealmServer.Handlers
 					}
 					chr = record.CreateCharacter();
 					chr.Create(acc, record, client);
+					// HEHE: Always show 4 action bars
+					chr.ActionBarMask = (byte)15;
 					chr.LoadAndLogin();
 
 					var message = String.Format("Welcome to " + RealmServer.FormattedTitle);

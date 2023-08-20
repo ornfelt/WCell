@@ -1,0 +1,1 @@
+copy /a Updates\*.sql /b ALL_realm_updates2.sql

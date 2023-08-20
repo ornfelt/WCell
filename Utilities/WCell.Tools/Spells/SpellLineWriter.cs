@@ -212,7 +212,7 @@ namespace WCell.Tools.Spells
 				{
 					foreach (var spellEntry in npc.TrainerEntry.Spells.Values)
 					{
-						var spell = spellEntry.Spell;
+                        var spell = spellEntry.Spell;
 						if (spell.Ability != null && spell.Ability.Skill.Category == SkillCategory.ClassSkill)
 						{
 							AddSpell(spell);

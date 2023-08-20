@@ -7,6 +7,7 @@ using WCell.RealmServer.Misc;
 using WCell.RealmServer.Spells;
 using WCell.RealmServer.Spells.Auras.Misc;
 using WCell.Util;
+using NLog;
 
 namespace WCell.Addons.Default.Spells.Mage
 {
@@ -113,6 +114,9 @@ namespace WCell.Addons.Default.Spells.Mage
 
 			public override void OnAttack(DamageAction action)
 			{
+				if (action.Spell is null || action.Spell.Line is null)
+					return;
+
 				if (action.IsMagic && TriggerSpells.Contains(action.Spell.Line.LineId))
 				{
 					if (!action.IsCritical)

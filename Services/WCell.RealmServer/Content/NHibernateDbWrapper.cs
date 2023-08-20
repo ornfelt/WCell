@@ -47,6 +47,7 @@ namespace WCell.RealmServer.Content
 					//+ " ORDER BY " + table.PrimaryColumns[0].Name
 						);
 				//tables[i].QueryString, emptySqlTypeArr);
+                //Console.WriteLine("COMMANDTEXT: " + cmd.CommandText);
 				m_selectCommands[i] = cmd;
 			}
 		}

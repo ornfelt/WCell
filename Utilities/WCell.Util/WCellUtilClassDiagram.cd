@@ -1,0 +1,1887 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="WCell.Util.AppUtil" Collapsed="true">
+    <Position X="37.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAQAAAAAAAAIAAAAEAAAAAAAgGAAgAAAAAAAAA=</HashCode>
+      <FileName>AppUtil.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.ArrayUtil" Collapsed="true">
+    <Position X="43" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EBIBAAAIAAAhB0BAAABACAABCAAACAAAAAACNAAAEAA=</HashCode>
+      <FileName>ArrayExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.CollectionExtensions" Collapsed="true">
+    <Position X="39.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAgAAICAgAAAABEAAEIAIQgARoAiwAAAAQTCQCAA=</HashCode>
+      <FileName>CollectionExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.EmailAddressParser" Collapsed="true">
+    <Position X="44.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAIAAAAgAAAAAgChAiIAgAAQAACgAgARABAAEg=</HashCode>
+      <FileName>EmailAddressParser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.EnumUtil" Collapsed="true">
+    <Position X="46.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EnumUtil.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.ExceptionExtensions" Collapsed="true">
+    <Position X="48.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ExceptionExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.CustomGetterSetter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="48.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAABABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IGetterSetter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WCell.Util.DefaultVariableAccessor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="32.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABABAAAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IGetterSetter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WCell.Util.IndentTextWriter" Collapsed="true">
+    <Position X="41.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAgADAEQAAMhAAIEIACgAACAIAMAAACAAGIAIA=</HashCode>
+      <FileName>IndentTextWriter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.BoxExtensions" Collapsed="true">
+    <Position X="32.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>IOExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.MiscExtensions" Collapsed="true">
+    <Position X="34.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>IOExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.VectorExtensions" Collapsed="true">
+    <Position X="43" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>IOExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.MathExtensions" Collapsed="true">
+    <Position X="39.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAIEAEAAAAEQAAAAAEAAAgAAAAI=</HashCode>
+      <FileName>IOExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.IOExtensions" Collapsed="true">
+    <Position X="43" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIEEAIAAABAACgAAAIAAQAABAAAAABAAAAAAAFAIAA=</HashCode>
+      <FileName>IOExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.DefaultProducer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="30.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIIAAAAAAAAAAAAAAAAAAAAAgAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>IProducer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WCell.Util.CustomProducer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="29" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAgAAAAEAAABAAAAAA=</HashCode>
+      <FileName>IProducer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WCell.Util.DefaultOneArgumenteProducer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="48.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAIAAAAAAAAAAAAAAAAAAAAAAgAIAIAQAAAAAAAAA=</HashCode>
+      <FileName>IProducer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WCell.Util.DefaultArrayProducer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="43" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAAABAAAggAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>IProducer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WCell.Util.DefaultProducer&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="29" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IProducer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WCell.Util.DefaultArrayProducer&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="44.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IProducer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WCell.Util.FileStreamTarget" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="30.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAIAAAAIAAAAQAAAAAAAAAAAAAAAGIAAA=</HashCode>
+      <FileName>IStreamTarget.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WCell.Util.MathUtil" Collapsed="true">
+    <Position X="43" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAhAQAEEAAAAAAAAABAAAAAAAAAiAABAgKAAAA=</HashCode>
+      <FileName>MathUtil.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.ReflectionUtils" Collapsed="true">
+    <Position X="48.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAg=</HashCode>
+      <FileName>ReflectionUtils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.SerializablePairCollection" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="29" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAIAAAAAAAAAAAAAQAAAAAACAABAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>SerializablePairCollection.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WCell.Util.SortedTopN&lt;TKey, TValue&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="37.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAABAAAABAAAAAAABAAAAAAIAAEAAAgAACAAAA=</HashCode>
+      <FileName>SortedTopN.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WCell.Util.StaticCircularList&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="39.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABgAEACgAEBAJAAAAAAAAQCgAAAAAAMABACAAAAAgA=</HashCode>
+      <FileName>StaticCircularList.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WCell.Util.StringParser" Collapsed="true">
+    <Position X="43" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAwAAAEIAAAAAIAAQAAAEAAAAAAAAAAgAAAAAAAEQA=</HashCode>
+      <FileName>StringParser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.StringUtils" Collapsed="true">
+    <Position X="46.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAEAAAEAAAAAAAACgAAAAQAAAgAAAIAAA=</HashCode>
+      <FileName>StringUtils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.ReaderWriterLockWrapper" Collapsed="true">
+    <Position X="41.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAlAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAQAAA=</HashCode>
+      <FileName>Synchronization\ReaderWriterLockWrapper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.Utility" Collapsed="true">
+    <Position X="34.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kADEIEEkwBDgICQEoAkIAAkIAShaJLVIkGISEAQCFAw=</HashCode>
+      <FileName>Utility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.SingleEnumerator&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="34.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAABAAAAACAAAAAAAAAAAAAoAQAAAAAAAA=</HashCode>
+      <FileName>Utility.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WCell.Util.WeakReference&lt;T&gt;" Collapsed="true">
+    <Position X="46.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAACAACAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>WeakReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.XmlFile&lt;T&gt;" Collapsed="true">
+    <Position X="4" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgIAAAAAAAAAEBAAAAAACAAAAAAAAABAAAAAAAAE=</HashCode>
+      <FileName>XmlFile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.XmlFileBase" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIABAAAAAEAAAAAAAAACAAAAAAAAABAAIABAAAA=</HashCode>
+      <FileName>XmlFile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.Code.CodeFileWriter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="37.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AkAFQJ4QACABLCC6BjIQHAQgQAJJIACAASIgAgXQIGg=</HashCode>
+      <FileName>Code\CodeFileWriter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WCell.Util.Collections.BaseImmutableDictionary&lt;TKey, TValue&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="44.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAIAAABAAAAEAhAACAAABAQAAAAAAAAEACAgAABAAAA=</HashCode>
+      <FileName>Collections\BaseImmutableDictionary.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WCell.Util.Collections.IdQueue" Collapsed="true">
+    <Position X="36" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAgEAAAAAAAAAAAAAQAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Collections\IdQueue.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.Collections.ImmutableDictionary&lt;TKey, TValue&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="37.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAIAAAAAAAAEABAQGAQABAQAAAAAAgAEAAAoIABAAAA=</HashCode>
+      <FileName>Collections\ImmutableDictionary.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WCell.Util.Collections.ImmutableList&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="39.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEIAAkAAAAQAABAQCAAABAQAAAAAAAAECAAAAABQIAA=</HashCode>
+      <FileName>Collections\ImmutableList.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WCell.Util.Collections.LockfreeQueue&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="34.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACBAAAABAAAQABAAAAAAAAQAAAAABAAAAACAAABBAAA=</HashCode>
+      <FileName>Collections\LockfreeQueue.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WCell.Util.Collections.LockFreeStack&lt;T&gt;" Collapsed="true">
+    <Position X="36" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAABCAA=</HashCode>
+      <FileName>Collections\LockfreeStack.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.Collections.PriorityQueue&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="37.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABBAAAAAAECAIBAAAiAAEAQAAACABAQEABCAAAQEIAg=</HashCode>
+      <FileName>Collections\PriorityQueue.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WCell.Util.Collections.SingleLinkNode&lt;T&gt;" Collapsed="true">
+    <Position X="36" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collections\SingleLinkNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.Collections.SynchronizedDictionary&lt;TKey, TValue&gt;" Collapsed="true">
+    <Position X="48.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAIQAAAAAAAEAAAACAAABAAAAAAAAAAAAAIAAABAAAA=</HashCode>
+      <FileName>Collections\SynchronizedDictionary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.Collections.SynchronizedList&lt;T&gt;" Collapsed="true">
+    <Position X="29" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAACCAAQBAAAAAAEAAAACAIAAABQAAA=</HashCode>
+      <FileName>Collections\SynchronizedList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.Collections.SynchronizedQueue&lt;T&gt;" Collapsed="true">
+    <Position X="30.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAEABAAAgAAAAQAACACBAAAAAIAAABQIAA=</HashCode>
+      <FileName>Collections\SynchronizedQueue.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.Commands.BaseCommand&lt;C&gt;" Collapsed="true">
+    <Position X="11.5" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAECABYAIAIEAYQEIkFCCEwAADCBCAgABBBCQAAAAAA=</HashCode>
+      <FileName>Commands\BaseCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.Commands.DefaultCmdArgs" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="46.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\CmdArgs.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WCell.Util.Commands.CmdTrigger&lt;C&gt;" Collapsed="true">
+    <Position X="1.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAACIAAwQAAAAABAAQQAAAAAEAAAAACAIEAAA=</HashCode>
+      <FileName>Commands\CmdTrigger.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WCell.Util.Commands.Command&lt;C&gt;" Collapsed="true">
+    <Position X="11.5" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAgAACAAAAAAAAAAAAAAAQAAAAEA=</HashCode>
+      <FileName>Commands\Command.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.Commands.CommandMgr&lt;C&gt;" Collapsed="true">
+    <Position X="43" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAgwAIAiBABRACAEATAAAAAwAAIAAoADBAAJAQAA=</HashCode>
+      <FileName>Commands\CommandMgr.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.Commands.NestedCmdTrigger&lt;C&gt;" Collapsed="true">
+    <Position X="0.5" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAARAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\NestedCmdTrigger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.Commands.SilentCmdTrigger&lt;C&gt;" Collapsed="true">
+    <Position X="2.75" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\SilentCmdTrigger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.Conversion.Converters" Collapsed="true">
+    <Position X="46.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Conversion\Converters.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.Conversion.CustomReader" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="30.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAgAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Conversion\IFieldReader.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WCell.Util.Conversion.ToIntConverter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="41.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Conversion\ToUIntConverter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WCell.Util.Conversion.ToUIntConverter" Collapsed="true">
+    <Position X="3.5" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Conversion\ToUIntConverter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WCell.Util.Conversion.ToUIntEnumConverter" Collapsed="true">
+    <Position X="3.5" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAgAAAAAAAAg=</HashCode>
+      <FileName>Conversion\ToUIntConverter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.Conversion.ToStringConverter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="48.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Conversion\ToUIntConverter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WCell.Util.Data.NotPersistentAttribute" Collapsed="true">
+    <Position X="41.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\Attributes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.Data.PersistentAttribute" Collapsed="true">
+    <Position X="12.5" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Data\Attributes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.Data.DataHolderAttribute" Collapsed="true">
+    <Position X="14.75" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAIAAAAAAAAABAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Data\Attributes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.Data.DependingProducer" Collapsed="true">
+    <Position X="39.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\Attributes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.Data.DBAttribute" Collapsed="true">
+    <Position X="13.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\Attributes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.Data.BinaryContentStream" Collapsed="true">
+    <Position X="48.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAgAAAAAAABAAAAAAEEAAM=</HashCode>
+      <FileName>Data\BinaryContentStream.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.Data.ArrayPersistor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="41.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAACAgAAAAAAAAAAAgCAEAAAA=</HashCode>
+      <FileName>Data\BinaryPersistors.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WCell.Util.Data.NestedPersistor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="37.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAABAAAAAAAAQAAAAAgAgAAAAAAAAAAAgAAEAAAA=</HashCode>
+      <FileName>Data\BinaryPersistors.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WCell.Util.Data.BinaryPersistors" Collapsed="true">
+    <Position X="29" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAEABACABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\BinaryPersistors.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.Data.SimpleBinaryPersistor" Collapsed="true">
+    <Position X="14" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAhAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Data\BinaryPersistors.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WCell.Util.Data.BoolPersistor" Collapsed="true">
+    <Position X="1.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAhAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Data\BinaryPersistors.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.Data.Int32Persistor" Collapsed="true">
+    <Position X="4" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAhAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Data\BinaryPersistors.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.Data.StringPersistor" Collapsed="true">
+    <Position X="6.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAhAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Data\BinaryPersistors.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.Data.UInt32Persistor" Collapsed="true">
+    <Position X="8.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAhAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Data\BinaryPersistors.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.Data.Int16Persistor" Collapsed="true">
+    <Position X="10.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAhAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Data\BinaryPersistors.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.Data.UInt16Persistor" Collapsed="true">
+    <Position X="13" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAhAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Data\BinaryPersistors.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.Data.BytePersistor" Collapsed="true">
+    <Position X="15.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAhAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Data\BinaryPersistors.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.Data.SBytePersistor" Collapsed="true">
+    <Position X="17.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAhAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Data\BinaryPersistors.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.Data.Int64Persistor" Collapsed="true">
+    <Position X="19.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAhAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Data\BinaryPersistors.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.Data.UInt64Persistor" Collapsed="true">
+    <Position X="22" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAhAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Data\BinaryPersistors.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.Data.FloatPersistor" Collapsed="true">
+    <Position X="24.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAhAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Data\BinaryPersistors.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.Data.DoublePersistor" Collapsed="true">
+    <Position X="26.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAhAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Data\BinaryPersistors.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.Data.DataFieldProxy" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="32.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACABABEAAAAAEAAEACAAAAAAAAAAAEAgAA=</HashCode>
+      <FileName>Data\DataFieldProxy.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WCell.Util.Data.DataFieldBase" Collapsed="true">
+    <Position X="14" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAACAAAEAAAAAQACAAgAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\DataFields.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WCell.Util.Data.DataField" Collapsed="true">
+    <Position X="14" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MAIAAAAAAAAAAIAEAAAAAAQQAAAAAAAAEAAAAAAAAII=</HashCode>
+      <FileName>Data\DataFields.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WCell.Util.Data.FlatSimpleDataField" Collapsed="true">
+    <Position X="10.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABABEAAAAAAAAAgAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Data\DataFields.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WCell.Util.Data.NestedDataField" Collapsed="true">
+    <Position X="13" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAABAAAAAAAAAgAQAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Data\DataFields.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WCell.Util.Data.NestedSimpleDataField" Collapsed="true">
+    <Position X="13" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAgAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Data\DataFields.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.Data.ArrayDataField" Collapsed="true">
+    <Position X="16.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEABABAAIAAAIBAACgAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Data\DataFields.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WCell.Util.Data.FlatArrayDataField" Collapsed="true">
+    <Position X="15.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Data\DataFields.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.Data.FlatArrayAccessor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="32.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAEACABABEAAABAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Data\DataFields.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WCell.Util.Data.NestedArrayDataField" Collapsed="true">
+    <Position X="17.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAgAQAAAgAAAAAAAAAAI=</HashCode>
+      <FileName>Data\DataFields.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WCell.Util.Data.NestedArrayAccessor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="36" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAEACABABFAAABQACQAgAQAAAgAAEAAAAAAAA=</HashCode>
+      <FileName>Data\DataFields.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WCell.Util.Data.DataHolderDefinition" Collapsed="true">
+    <Position X="36" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EEACIAABgBBAABAEQAAFUASAABAAAQCBAQAAAAIAgAA=</HashCode>
+      <FileName>Data\DataHolderDefinition.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.Data.DataHolderException" Collapsed="true">
+    <Position X="37.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\DataHolderException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.Data.DataHolderMgr" Collapsed="true">
+    <Position X="39.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAACAQAAAAAAAAAAAQACAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Data\DataHolderMgr.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.Data.DataHolderBase" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="34.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\IDataHolder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WCell.Util.DB.BaseDataColumn" Collapsed="true">
+    <Position X="8.5" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABBAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DB\BaseDataColumn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.DB.DataHolderTableMapping" Collapsed="true">
+    <Position X="41.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAEAIAgAAAAAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>DB\DataHolderTableMapping.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.DB.KeyValueListBase" Collapsed="true">
+    <Position X="0.5" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAQAAAAAAAAAAEAAAAAQAAAAA=</HashCode>
+      <FileName>DB\KeyValueListBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.DB.UpdateKeyValueList" Collapsed="true">
+    <Position X="0.5" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DB\KeyValueListBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.DB.LightDBDefinitionSet" Collapsed="true">
+    <Position X="46.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QEgAAEBEQUCAgAAAIAAACARCAAABACAAgACAAgBAAIA=</HashCode>
+      <FileName>DB\LightDBDefinitionSet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.DB.LightDBMapper" Collapsed="true">
+    <Position X="48.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQACEAgAgIjAAgUABEAAABxBAEBBBKAAECgAAAIAAA=</HashCode>
+      <FileName>DB\LightDBMapper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.DB.LightDBMgr" Collapsed="true">
+    <Position X="29" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oACEIAAIAAAEAAEgAAAAEAAABACgAEAAAAwAAAAAAAA=</HashCode>
+      <FileName>DB\LightDBMgr.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.DB.Patterns" Collapsed="true">
+    <Position X="32.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>DB\Patterns.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.DB.SimpleDataColumn" Collapsed="true">
+    <Position X="8.5" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAEAEAIAAEAAAAAAAIABBAAASAABEAAAAAgAA=</HashCode>
+      <FileName>DB\SimpleDataColumn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.DB.TableDefinition" Collapsed="true">
+    <Position X="32.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ECAIAAABQACAAUAEBAQBAAQgAAAAIAQAEAQACAYACAE=</HashCode>
+      <FileName>DB\TableDefinition.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.DB.Xml.ArrayConstraint" Collapsed="true">
+    <Position X="39.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DB\Xml\ArrayConstraint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.DB.Xml.BaseFieldArrayDefinition" Collapsed="true">
+    <Position X="3" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAQAAQAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>DB\Xml\ArrayFieldDefinitions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.DB.Xml.FlatArrayFieldDefinition" Collapsed="true">
+    <Position X="3" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAI=</HashCode>
+      <FileName>DB\Xml\ArrayFieldDefinitions.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WCell.Util.DB.Xml.NestedArrayFieldDefinition" Collapsed="true">
+    <Position X="5.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAAAACAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>DB\Xml\ArrayFieldDefinitions.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WCell.Util.DB.Xml.BasicTableDefinition" Collapsed="true">
+    <Position X="46.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEBAABAAQgAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>DB\Xml\BasicTableDefinition.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.DB.Xml.BasicTableDefinitions" Collapsed="true">
+    <Position X="3" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DB\Xml\BasicTableDefinitions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.DB.Xml.Column" Collapsed="true">
+    <Position X="41.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DB\Xml\Column.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.DB.Xml.DataFieldDefinition" Collapsed="true">
+    <Position X="4" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAQAAAAAAEAAAAAAQAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>DB\Xml\DataFieldDefinition.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WCell.Util.DB.Xml.DefVersion" Collapsed="true">
+    <Position X="34.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAECAhAQAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DB\Xml\DefVersion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.DB.Xml.LightRecordXmlConfig" Collapsed="true">
+    <Position X="7.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAABAAAAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DB\Xml\LightRecordXmlConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.DB.Xml.NestedSimpleFieldDefinition" Collapsed="true">
+    <Position X="7.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAgAI=</HashCode>
+      <FileName>DB\Xml\NestedSimpleFieldDefinition.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WCell.Util.DB.Xml.PrimaryColumn" Collapsed="true">
+    <Position X="36" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAEAQAAEBAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>DB\Xml\PrimaryColumn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.DB.Xml.SimpleFlatFieldDefinition" Collapsed="true">
+    <Position X="0.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAABAQAAAAAAAAAAAAAIAAAAAAAI=</HashCode>
+      <FileName>DB\Xml\SimpleFlatFieldDefinition.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WCell.Util.DB.Xml.XmlDataHolderDefinition" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="48.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAABAEAAAAAAQAAAAAAAAAAAAAAAAAgEA=</HashCode>
+      <FileName>DB\Xml\XmlDataHolderDefinition.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WCell.Util.DB.Xml.XmlWhereClause" Collapsed="true">
+    <Position X="30.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAABAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DB\Xml\XmlWhereClause.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.DotNetDocs.DocEntry" Collapsed="true">
+    <Position X="41.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAKAIgAAAIAABIAAABAAAAAAAAAAAIAAAAggAAAAAAA=</HashCode>
+      <FileName>DotNetDocs\DocEntry.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.DotNetDocs.DotNetDocumentation" Collapsed="true">
+    <Position X="0.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAAAAAAAACAAAAAIAAgAAEAAAAAAA=</HashCode>
+      <FileName>DotNetDocs\DotNetDocumentation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.DynamicAccess.AccessorMgr" Collapsed="true">
+    <Position X="30.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABACAAMAAAAAAAAQAAAAAgIAAAQAAAAAJAAACAgAOAI=</HashCode>
+      <FileName>DynamicAccess\AccessorMgr.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.DynamicAccess.DontCopyAttribute" Collapsed="true">
+    <Position X="43" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DynamicAccess\DontCopyAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.DynamicAccess.MethodExcecutable" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="32.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EBAAAAAAAAAABAAEAAAgAAQAAAAAABAQAAAAAAAAAgA=</HashCode>
+      <FileName>DynamicAccess\MethodExcecutable.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WCell.Util.DynamicAccess.PropertyAccessorException" Collapsed="true">
+    <Position X="39.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DynamicAccess\PropertyAccessorException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.Graphics.Extensions" Collapsed="true">
+    <Position X="29" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Graphics\Extensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.Graphics.HalfUtils" Collapsed="true">
+    <Position X="34.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAoAAAACQAARAQQAKAAAAgIAAAAAAAAAAAAEAAAAEAI=</HashCode>
+      <FileName>Graphics\HalfUtils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.Graphics.MathHelper" Collapsed="true">
+    <Position X="41.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAIAkAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Graphics\MathHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.Graphics.OBB" Collapsed="true">
+    <Position X="44.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAIAoA=</HashCode>
+      <FileName>Graphics\OBB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.Graphics.Point2D" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="34.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACCCABABAAAAAAAAwAEAAAAAEAAAAIAAAAAAAAABYiQ=</HashCode>
+      <FileName>Graphics\Point2D.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WCell.Util.Graphics.RectInt32" Collapsed="true">
+    <Position X="43" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgBAAAAIRAAAQBQEwAIUAEAAAAAYEIAACADgAAAQ4mA=</HashCode>
+      <FileName>Graphics\RectInt32.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.Lang.Localizer&lt;Locale, Key&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="32.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAACACgACAAQBAAAAIAAAEAAAQIAUIAAABAA=</HashCode>
+      <FileName>Lang\Localizer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WCell.Util.Lang.TranslatableItem&lt;K&gt;" Collapsed="true">
+    <Position X="29" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Lang\TranslatableItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.Lang.TranslatedItem&lt;K&gt;" Collapsed="true">
+    <Position X="30.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Lang\TranslatedItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.Lang.Translation&lt;L, K&gt;" Collapsed="true">
+    <Position X="5.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAIAAACAAAAAAAAAICAABAIQAAAAAEAAAAAAA=</HashCode>
+      <FileName>Lang\Translation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.NLog.LogUtil" Collapsed="true">
+    <Position X="37.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgEAAAAAACAAACAECEAAEAQCAAIgAAAAAABAAAA=</HashCode>
+      <FileName>NLog\LogUtil.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.NLog.StreamTarget" Collapsed="true">
+    <Position X="41.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAAAAAAAIAAAAQAAAAAGIABg=</HashCode>
+      <FileName>NLog\StreamLogger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.ObjectPools.ObjectPool&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="46.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQCBAgAAQACAAAAEEIEEAAEAABBAAAAAAAAAAEAAABA=</HashCode>
+      <FileName>ObjectPools\ObjectPool.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WCell.Util.ReflectionUtil.MemberAccessor&lt;U&gt;" Collapsed="true">
+    <Position X="44.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAIAAAAAAAEAAAAAAAACAEAAAAAAAAAAAIAJA=</HashCode>
+      <FileName>ReflectionUtil\MemberAccessor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.ReflectionUtil.ReflectionMember" Collapsed="true">
+    <Position X="44.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>ReflectionUtil\ReflectionMember.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.ReflectionUtil.ReflectionMemberChain" Collapsed="true">
+    <Position X="46.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ReflectionUtil\ReflectionMemberChain.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.Serialization.SerializerCollection" Collapsed="true">
+    <Position X="30.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Serialization\SerializerCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.Serialization.VersionedSerializer" Collapsed="true">
+    <Position X="44.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Serialization\VersionedSerializer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.Strings.StringNode&lt;V&gt;" Collapsed="true">
+    <Position X="12.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAIEgAIAAoEIAEAAIERAQCIAZAIkAAAAgggAAAQAA=</HashCode>
+      <FileName>Strings\StringNode.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WCell.Util.Strings.StringStream" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="44.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QCDQCABYAAAAJAClaAAEAZBAAAAQAiAQAAAIABBUMBA=</HashCode>
+      <FileName>Strings\StringStream.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WCell.Util.Strings.StringTree&lt;V&gt;" Collapsed="true">
+    <Position X="12.5" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAJAAAAAQAgAAA=</HashCode>
+      <FileName>Strings\StringTree.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.Synchronization.SimpleLockWrapper" Collapsed="true">
+    <Position X="32.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Synchronization\SimpleLockWrapper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.Threading.ActorModel.Actor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="32.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AFAQAAAEACAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Threading\ActorModel\Actor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WCell.Util.Threading.ActorModel.ActorException" Collapsed="true">
+    <Position X="34.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Threading\ActorModel\ActorException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.Threading.ActorModel.Channel&lt;TActor, TMessage&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="36" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAgAQAEEAAAAAABAAAAAAQAAABAAAAAAA=</HashCode>
+      <FileName>Threading\ActorModel\Channel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WCell.Util.Threading._ContextUtil" Collapsed="true">
+    <Position X="29" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Threading\IContextHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.Threading.Message" Collapsed="true">
+    <Position X="5.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAQEAIAAAAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>Threading\Messages.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WCell.Util.Threading.WaitMessage" Collapsed="true">
+    <Position X="5.5" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAEAAAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Threading\Messages.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.Threading.Message1&lt;T1&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="46.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAQAAAAAAAAgAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>Threading\Messages.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WCell.Util.Threading.Message2&lt;T1, T2&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="48.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAQAAABgAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>Threading\Messages.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WCell.Util.Threading.Message3&lt;T1, T2, T3&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="29" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAEAAAADgAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>Threading\Messages.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WCell.Util.Threading.Message4&lt;T1, T2, T3, T4&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="30.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAQAAAAAAADgAQAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>Threading\Messages.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WCell.Util.Threading.TaskParallel.AggregateExceptionExtensions" Collapsed="true">
+    <Position X="36" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Threading\TaskParallel\AggregateExceptionExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.Threading.TaskParallel.BlockingCollectionExtensions" Collapsed="true">
+    <Position X="30.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAACAAE=</HashCode>
+      <FileName>Threading\TaskParallel\BlockingCollectionExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.Threading.TaskParallel.CancellationTokenExtensions" Collapsed="true">
+    <Position X="34.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAAAAAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Threading\TaskParallel\CancellationTokenExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.Threading.TaskParallel.DelegateBasedObserver&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="36" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAQAAACACAIAAAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Threading\TaskParallel\DelegateBasedObserver.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WCell.Util.Threading.TaskParallel.DelegateExtensions" Collapsed="true">
+    <Position X="37.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Threading\TaskParallel\DelegateExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.Threading.TaskParallel.LazyExtensions" Collapsed="true">
+    <Position X="44.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAQAAIAAA=</HashCode>
+      <FileName>Threading\TaskParallel\LazyExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.Threading.TaskParallel.LinqToTasks" Collapsed="true">
+    <Position X="30.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAACAAACAAAgAAAAAAAAAAEEAAAAAAABAQAAAQAA=</HashCode>
+      <FileName>Threading\TaskParallel\LinqToTasks.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.Threading.TaskParallel.ParallelLinqExtensions" Collapsed="true">
+    <Position X="48.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAgAAAAAAAAAAAAIAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Threading\TaskParallel\ParallelLinqExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.Threading.TaskParallel.ParallelLinqOptions" Collapsed="true">
+    <Position X="29" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAQAAAAAAAAAAAAABAIAAAIAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Threading\TaskParallel\ParallelLinqOptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.Threading.TaskParallel.ParallelOptionsExtensions" Collapsed="true">
+    <Position X="30.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Threading\TaskParallel\ParallelOptionsExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.Threading.TaskParallel.TaskCompletionSourceExtensions" Collapsed="true">
+    <Position X="34.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Threading\TaskParallel\TaskCompletionSourceExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.Threading.TaskParallel.TaskExtensions" Collapsed="true">
+    <Position X="36" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAEAAAAAAAAAAAgAgABABAAAAGABAA=</HashCode>
+      <FileName>Threading\TaskParallel\TaskExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.Threading.TaskParallel.TaskFactoryExtensions" Collapsed="true">
+    <Position X="37.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAQCgAAAAAIAAAAAAAAAIAARAAEAQAIAAAgAAEIA=</HashCode>
+      <FileName>Threading\TaskParallel\TaskFactoryExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.Threading.TaskParallel.TaskSchedulerExtensions" Collapsed="true">
+    <Position X="39.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Threading\TaskParallel\TaskSchedulerExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.Toolshed.ToolAttribute" Collapsed="true">
+    <Position X="43" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Toolshed\Attributes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.Toolshed.NoToolAttribute" Collapsed="true">
+    <Position X="39.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Toolshed\Attributes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.Toolshed.ToolException" Collapsed="true">
+    <Position X="44.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Toolshed\ToolException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.Toolshed.ToolMgr" Collapsed="true">
+    <Position X="46.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAABAAAAARAAACAAAAAAAABAAAQAAAAAAAAAAQ=</HashCode>
+      <FileName>Toolshed\ToolMgr.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.Variables.ConfigUtil" Collapsed="true">
+    <Position X="44.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Variables\ConfigUtil.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.Variables.VariableDefinition" Collapsed="true">
+    <Position X="39.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAEAAAAAAQAAAAAQAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Variables\IVariableDefinition.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.Variables.TypeVariableDefinition" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="32.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AYgAAAAAAQCCAIQ0AAAQAAQCAIBJAhAQAAAigBAAAAA=</HashCode>
+      <FileName>Variables\TypeVariableDefinition.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WCell.Util.Variables.VariableAttribute" Collapsed="true">
+    <Position X="36" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAACAAAAQAAAAAAQCAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Variables\VariableAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.Variables.VariableClassAttribute" Collapsed="true">
+    <Position X="37.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Variables\VariableAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.Variables.NotVariableAttribute" Collapsed="true">
+    <Position X="43" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Variables\VariableAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.Variables.VariableConfiguration&lt;C, V&gt;" Collapsed="true">
+    <Position X="9.5" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Variables\VariableConfiguration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.Variables.VariableConfiguration&lt;V&gt;" Collapsed="true">
+    <Position X="9.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>JgMAgJAEAAiAVBBQAABAAAAACARABAAEAABAAQAYAIA=</HashCode>
+      <FileName>Variables\VariableConfiguration.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WCell.Util.Variables.VariableException" Collapsed="true">
+    <Position X="41.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Variables\VariableException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.Util.Xml.XmlUtil" Collapsed="true">
+    <Position X="29" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABQADAAAABAQAgAQAAAAEAAAAQAAAAAAwAAAAAA=</HashCode>
+      <FileName>Xml\XmlUtil.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="WCell.Util.Collections.HeapEntry&lt;T&gt;" Collapsed="true">
+    <Position X="36" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAEAAAAAAAEABAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Collections\PriorityQueue.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="WCell.Util.Graphics.BoundingBox" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="29" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABBAAAAgEkAAAAEAAAAAAAJAAAAAAAAAQAqA=</HashCode>
+      <FileName>Graphics\BoundingBox.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Struct Name="WCell.Util.Graphics.BoundingSphere" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="30.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAEgAAAAAAAAAAAAIAAAAAAAAAYAqA=</HashCode>
+      <FileName>Graphics\BoundingSphere.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Struct Name="WCell.Util.Graphics.Color" Collapsed="true">
+    <Position X="32.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>Y/o/AcRdQXu0I7umoRkQ11WRFIBxxgSLiLRtvTUZl4E=</HashCode>
+      <FileName>Graphics\Color.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="WCell.Util.Graphics.HalfSingle" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="34.25" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAEgAQAAAAAAAAAAIAAAAQAAAABAiI=</HashCode>
+      <FileName>Graphics\HalfSingle.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Struct Name="WCell.Util.Graphics.Matrix" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="37.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAJAEEaAAYAAAAAG4AUDACRCIAAAALIAiECEAAgAAjI=</HashCode>
+      <FileName>Graphics\Matrix.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Struct Name="WCell.Util.Graphics.Plane" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="41.25" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEsAAAAAQACAAIAMAAAAAABAAAAqA=</HashCode>
+      <FileName>Graphics\Plane.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Struct Name="WCell.Util.Graphics.Point" Collapsed="true">
+    <Position X="43" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAJAAAAAAAAAAAAFwAMCAAAAAAAAAIAAAABgAAAAYiA=</HashCode>
+      <FileName>Graphics\Point.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="WCell.Util.Graphics.Quaternion" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="44.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAABYAAQAAAAAE8AcDAIBAKAAAAIAAgEAkAAAYYjE=</HashCode>
+      <FileName>Graphics\Quaternion.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Struct Name="WCell.Util.Graphics.Ray" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="46.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAkgCAEAAAAAAAAAIAAAAAAAAAAAqA=</HashCode>
+      <FileName>Graphics\Ray.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Struct Name="WCell.Util.Graphics.Ray2D" Collapsed="true">
+    <Position X="48.25" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgACAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Graphics\Ray2D.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="WCell.Util.Graphics.Rect" Collapsed="true">
+    <Position X="29" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgBAAAAIRAAAxBQEwAMUAEAAAEAYEIAACADgAQAQ4mA=</HashCode>
+      <FileName>Graphics\Rect.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="WCell.Util.Graphics.RectInt" Collapsed="true">
+    <Position X="30.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Graphics\Rect.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="WCell.Util.Graphics.Size" Collapsed="true">
+    <Position X="32.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAJAAAAABAAAAAQAwAMCAEAAAACAAIAAAAAAAAAAAiA=</HashCode>
+      <FileName>Graphics\Size.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="WCell.Util.Graphics.Triangle" Collapsed="true">
+    <Position X="34.25" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAFAAgAAAEAAAAAAAEAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>Graphics\Triangle.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="WCell.Util.Graphics.Vector2" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="36" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABBAAgAgAAE+EUCAABACQAAAIAAAAAgAAAAYiA=</HashCode>
+      <FileName>Graphics\Vector2.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Struct Name="WCell.Util.Graphics.Vector3" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="37.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAArBCBAAAAQE8EUiAARAyQAAAIBACCSgCQAAcqM=</HashCode>
+      <FileName>Graphics\Vector3.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Struct Name="WCell.Util.Graphics.Vector4" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="39.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABBAAAAAAAEmAAAAAAAAQAAAIAAAAAAAAAIYiE=</HashCode>
+      <FileName>Graphics\Vector4.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Struct Name="WCell.Util.ObjectPools.ObjectPoolInfo" Collapsed="true">
+    <Position X="39.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ObjectPools\ObjectPool.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="WCell.Util.IIndexedGetterSetter" Collapsed="true">
+    <Position X="32.5" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IGetterSetter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WCell.Util.IValueSetter" Collapsed="true">
+    <Position X="29" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IGetterSetter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WCell.Util.IGetterSetter" Collapsed="true">
+    <Position X="30.75" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IGetterSetter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WCell.Util.INamed" Collapsed="true">
+    <Position X="37.75" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>INamed.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WCell.Util.IProducer" Collapsed="true">
+    <Position X="18.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IProducer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WCell.Util.IOneArgumentProducer" Collapsed="true">
+    <Position X="41.25" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IProducer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WCell.Util.IProducer&lt;T&gt;" Collapsed="true">
+    <Position X="18.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IProducer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WCell.Util.IStreamTarget" Collapsed="true">
+    <Position X="44.75" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAQAAAAAAAAAAAAAAAGIAAA=</HashCode>
+      <FileName>IStreamTarget.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WCell.Util.Commands.ICmdArgs" Collapsed="true">
+    <Position X="34.25" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\CmdArgs.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WCell.Util.Commands.IBufferedCommandResponse" Collapsed="true">
+    <Position X="30.75" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Commands\IBufferedCommandResponse.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WCell.Util.Commands.ITriggerer" Collapsed="true">
+    <Position X="48.25" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAEAAAAACAAAAAA=</HashCode>
+      <FileName>Commands\ITriggerer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WCell.Util.Conversion.IConverter" Collapsed="true">
+    <Position X="39.5" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Conversion\IConverter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WCell.Util.Conversion.IConverterProvider" Collapsed="true">
+    <Position X="41.25" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Conversion\IConverterProvider.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WCell.Util.Conversion.IFieldReader" Collapsed="true">
+    <Position X="48.25" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Conversion\IFieldReader.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WCell.Util.Data.IComplexBinaryPersistor" Collapsed="true">
+    <Position X="12.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\BinaryPersistors.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WCell.Util.Data.ISimpleBinaryPersistor" Collapsed="true">
+    <Position X="14.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\BinaryPersistors.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WCell.Util.Data.IBinaryPersistor" Collapsed="true">
+    <Position X="13.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Data\BinaryPersistors.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WCell.Util.Data.IStringPersistor" Collapsed="true">
+    <Position X="46.5" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAgAAAAAAAA=</HashCode>
+      <FileName>Data\BinaryPersistors.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WCell.Util.Data.IFlatDataFieldAccessor" Collapsed="true">
+    <Position X="17.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\DataFields.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WCell.Util.Data.IDataFieldAccessor" Collapsed="true">
+    <Position X="17.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\DataFields.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WCell.Util.Data.INestedDataField" Collapsed="true">
+    <Position X="0.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACQAgAQAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Data\DataFields.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WCell.Util.Data.IDataFieldBase" Collapsed="true">
+    <Position X="1.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\DataFields.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WCell.Util.Data.IDataField" Collapsed="true">
+    <Position X="2.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAASAAAAAAAAAEAAAAAAAAAI=</HashCode>
+      <FileName>Data\DataFields.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WCell.Util.Data.IDataHolder" Collapsed="true">
+    <Position X="43" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\IDataHolder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WCell.Util.DB.IDbWrapper" Collapsed="true">
+    <Position X="44.75" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQQAAEAAAAAAQAAAAAAAAAAAAAEAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>DB\IDbWrapper.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WCell.Util.DB.Xml.IArray" Collapsed="true">
+    <Position X="29" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DB\Xml\ArrayFieldDefinitions.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WCell.Util.DB.Xml.IDataFieldDefinition" Collapsed="true">
+    <Position X="6.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>DB\Xml\IDataFieldDefinition.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WCell.Util.DB.Xml.IFlatField" Collapsed="true">
+    <Position X="6.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DB\Xml\IFlatField.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WCell.Util.DB.Xml.IHasDataFieldDefinitions" Collapsed="true">
+    <Position X="9.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>DB\Xml\IHasDataFieldDefinitions.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WCell.Util.DB.Xml.INestedFieldDefinition" Collapsed="true">
+    <Position X="6.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DB\Xml\INestedFieldDefinition.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WCell.Util.DynamicAccess.IExecutable" Collapsed="true">
+    <Position X="46.5" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAABAAAAAAAAAAAgA=</HashCode>
+      <FileName>DynamicAccess\IExecutable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WCell.Util.DynamicAccess.IGenericPropertyAccessor&lt;T, V&gt;" Collapsed="true">
+    <Position X="29" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DynamicAccess\IGenericPropertyAccessor.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WCell.Util.Graphics.IPackedVector" Collapsed="true">
+    <Position X="15.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Graphics\IPackedVector.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WCell.Util.Graphics.IPackedVector&lt;TPacked&gt;" Collapsed="true">
+    <Position X="15.5" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Graphics\IPackedVector.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WCell.Util.Lang.ILocalizer&lt;L&gt;" Collapsed="true">
+    <Position X="34.25" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAIAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Lang\ILocalizer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WCell.Util.ObjectPools.IObjectPool" Collapsed="true">
+    <Position X="39.5" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQABAAAAQAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ObjectPools\IObjectPool.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WCell.Util.ObjectPools.IPooledObject" Collapsed="true">
+    <Position X="43" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>ObjectPools\IPooledObject.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WCell.Util.Threading.ActorModel.IChannel" Collapsed="true">
+    <Position X="32.5" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Threading\ActorModel\IChannel.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WCell.Util.Threading.IContextHandler" Collapsed="true">
+    <Position X="37.75" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAgAAAAAAAAIAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Threading\IContextHandler.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WCell.Util.Threading.IMessage" Collapsed="true">
+    <Position X="36" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Threading\Messages.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WCell.Util.Variables.IConfiguration" Collapsed="true">
+    <Position X="36" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgIAAAAgABABQAAAAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Variables\IConfiguration.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WCell.Util.Variables.IVariableDefinition" Collapsed="true">
+    <Position X="30.75" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAAQCAAAAABAAAAAgAAAAAAA=</HashCode>
+      <FileName>Variables\IVariableDefinition.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="WCell.Util.Data.DataHolderState" Collapsed="true">
+    <Position X="34.25" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAABAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\DataHolderState.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="WCell.Util.DB.DataFieldType" Collapsed="true">
+    <Position X="32.5" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAQAAAAAgAQAAAAAACAAAAA=</HashCode>
+      <FileName>DB\DataFieldType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="WCell.Util.DotNetDocs.MemberType" Collapsed="true">
+    <Position X="37.75" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAgAAAAAAAQAAAQAAgAA=</HashCode>
+      <FileName>DotNetDocs\MemberType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="WCell.Util.Graphics.IntersectionType" Collapsed="true">
+    <Position X="36" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAQAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Graphics\2DConstants.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="WCell.Util.Graphics.ContainmentType" Collapsed="true">
+    <Position X="30.75" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARAIA=</HashCode>
+      <FileName>Graphics\ContainmentType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="WCell.Util.Graphics.PlaneIntersectionType" Collapsed="true">
+    <Position X="41.25" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>Graphics\Plane.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="WCell.Util.Graphics.OutFlags" Collapsed="true">
+    <Position X="39.5" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAAIAAAACACAAAEAAAA=</HashCode>
+      <FileName>Graphics\Rect.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="WCell.Util.Threading.ActorModel.ActorStatus" Collapsed="true">
+    <Position X="29" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Threading\ActorModel\ActorStatus.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="WCell.Util.SubmitValueHandler" Collapsed="true">
+    <Position X="32.5" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IGetterSetter.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="WCell.Util.Data.GetDataHolderHandler" Collapsed="true">
+    <Position X="29" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\Delegates.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="WCell.Util.Data.SetDataHolderHandler" Collapsed="true">
+    <Position X="30.75" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\Delegates.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

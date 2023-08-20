@@ -1,0 +1,337 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="WCell.AuthServer.Accounts.Account" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="31.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQAAAAAAAADEEAEkhAABhQAAEFAAAUiAgAAAgAIAAA=</HashCode>
+      <FileName>Accounts\Account.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WCell.AuthServer.Accounts.AccountMgr" Collapsed="true">
+    <Position X="33" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AASAAQAgCmAAAQEACIAQDgQAAAAkEAAYcARAIEAAKAE=</HashCode>
+      <FileName>Accounts\AccountMgr.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.AuthServer.Accounts.AuthenticationRecord" Collapsed="true">
+    <Position X="34.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAEIAAAAAQAAAEAAAgAAAAQ=</HashCode>
+      <FileName>Accounts\AuthenticationRecord.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.AuthServer.Addons.AuthAddonMgr" Collapsed="true">
+    <Position X="36.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAICAAAAAAAABAAAAgAAAAAAAA=</HashCode>
+      <FileName>Addons\AuthAddonMgr.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.AuthServer.AuthenticationHandler" Collapsed="true">
+    <Position X="33" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgACCAAAAIAAAkRAAAAAgIAABAAAQQgAAAhAAIAABAA=</HashCode>
+      <FileName>AuthenticationHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.AuthServer.AuthenticationServer" Collapsed="true">
+    <Position X="36.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABESAgAeAABAA0AAEKAAAILARACiAApABBAABgABI=</HashCode>
+      <FileName>AuthenticationServer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.AuthServer.AuthServerConfiguration" Collapsed="true">
+    <Position X="33" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQEAAgACIGAACEABgQACAAASAASKAJCQABCIAgBAAA=</HashCode>
+      <FileName>AuthServerConfiguration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.AuthServer.LoginFailInfo" Collapsed="true">
+    <Position X="34.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAIAAAAAAAAAACA=</HashCode>
+      <FileName>LoginFailInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.AuthServer.ObjectPool" Collapsed="true">
+    <Position X="36.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ObjectPool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.AuthServer.Program" Collapsed="true">
+    <Position X="40" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.AuthServer.RealmEntry" Collapsed="true">
+    <Position X="31.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASQABAAkgAAAAECNAAAQBgQQiACgAAFCAgQAAAwACAA=</HashCode>
+      <FileName>RealmEntry.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.AuthServer.Commands.AccountCommand" Collapsed="true">
+    <Position X="15.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\AccountCommands.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.AuthServer.Commands.ShutdownCommand" Collapsed="true">
+    <Position X="22" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\AdminCommands.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.AuthServer.Commands.DBCommand" Collapsed="true">
+    <Position X="26.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\AdminCommands.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.AuthServer.Commands.RolesCommand" Collapsed="true">
+    <Position X="1.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\AdminCommands.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.AuthServer.Commands.ResyncAccountsCommand" Collapsed="true">
+    <Position X="4" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\AdminCommands.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.AuthServer.Commands.ToggleCachedCommand" Collapsed="true">
+    <Position X="6.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\AdminCommands.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.AuthServer.Commands.ConfigCommand" Collapsed="true">
+    <Position X="10.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\AdminCommands.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.AuthServer.Commands.BanCommand" Collapsed="true">
+    <Position X="17.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\AdminCommands.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.AuthServer.Commands.AuthCommandHandler" Collapsed="true">
+    <Position X="40" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAACAAAABAAAQQBAAAAQAAAAAAAAQAAQAAAAKAAAAA=</HashCode>
+      <FileName>Commands\AuthCommandHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.AuthServer.Commands.AuthServerCmdArgs" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="31.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Commands\AuthServerCmdArgs.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WCell.AuthServer.Commands.AuthServerCommand" Collapsed="true">
+    <Position X="15.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>Commands\AuthServerCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.AuthServer.Commands.BufferedCommandTrigger" Collapsed="true">
+    <Position X="40" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAQAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\BufferedCommandTrigger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.AuthServer.Commands.DevCommand" Collapsed="true">
+    <Position X="8.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\DevCommands.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.AuthServer.Commands.DebugCommand" Collapsed="true">
+    <Position X="13" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\DevCommands.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.AuthServer.Commands.AuthIPCCommand" Collapsed="true">
+    <Position X="19.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\IPCCommands.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.AuthServer.Commands.ServerStatsCommand" Collapsed="true">
+    <Position X="24.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\MiscCommands.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.AuthServer.Commands.RealmsCommand" Collapsed="true">
+    <Position X="28.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Commands\RealmCommands.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.AuthServer.Database.AuthDBMgr" Collapsed="true">
+    <Position X="31.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAUAAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Database\AuthDBMgr.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.AuthServer.Firewall.BanEntry" Collapsed="true">
+    <Position X="36.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AFAAAABAAAQAEAIECAAAAAAEAAFAAAUAIAAAAAAAAAA=</HashCode>
+      <FileName>Firewall\BanEntry.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.AuthServer.Firewall.BanMgr" Collapsed="true">
+    <Position X="38.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABCQCgEACCgAABAEAAEAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Firewall\BanMgr.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.AuthServer.IPC.IPCServiceAdapter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="31.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IJAAEQLAEEQAARCAAAAKCAIIAAAAAAgAEEEMAAABAAA=</HashCode>
+      <FileName>IPC\IPCServiceAdapter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WCell.AuthServer.IPC.IPCServiceHost" Collapsed="true">
+    <Position X="33" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAACAAAAAAAEBAAAAgAAAAAAAA=</HashCode>
+      <FileName>IPC\IPCServiceHost.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.AuthServer.Lang.ArrayLocalizer" Collapsed="true">
+    <Position X="34.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Lang\ArrayLocalizer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.AuthServer.Lang.AuthLocalizer" Collapsed="true">
+    <Position X="38.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Lang\AuthLocalizer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.AuthServer.Lang.TranslatableItem" Collapsed="true">
+    <Position X="34.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lang\TranslatableItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.AuthServer.Network.AuthClient" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="38.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQIAAAAEAAAAAAAAAAAAAAAAQAAkAAAEA=</HashCode>
+      <FileName>Network\AuthClient.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WCell.AuthServer.Network.AuthPacketManager" Collapsed="true">
+    <Position X="40" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAAAEAQAAAQEAAAAAAAAA=</HashCode>
+      <FileName>Network\PacketManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.AuthServer.Privileges.PrivilegeMgr" Collapsed="true">
+    <Position X="38.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAACAAgAgBAAQAAAABAAACAIAAAAAAAAAAABIEAAAA=</HashCode>
+      <FileName>Privileges\PrivilegeMgr.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.AuthServer.Privileges.RoleGroupConfig" Collapsed="true">
+    <Position X="33" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAABAAAAIAAAAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Privileges\RoleGroupConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.AuthServer.Res.Resources" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Res\Resources.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.AuthServer.Res.WCell_AuthServer" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgALAAAQCoKAAIAFREiBAAQQBAEJEHAEJIGAIgIE=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCell.AuthServer.Stats.AuthStats" Collapsed="true">
+    <Position X="34.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAIAAAAAAIAAAAAAAAAAAAAAAACAAABAAA=</HashCode>
+      <FileName>Stats\AuthStats.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="WCell.AuthServer.Firewall.IPRange" Collapsed="true">
+    <Position X="33" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Firewall\IPRange.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="WCell.AuthServer.Network.AuthPacketMessage" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="31.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAQAAAAAAEAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Network\AuthPacketMessage.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Interface Name="WCell.AuthServer.Network.IAuthClient" Collapsed="true">
+    <Position X="31.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAEAAAAAAAAAAAAAAAAQAAkAAAEA=</HashCode>
+      <FileName>Network\IAuthClient.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="WCell.AuthServer.Lang.AuthLangKey" Collapsed="true">
+    <Position X="31.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABBACAAgQAAAAAEACABAAAAgKAAAAAAAAAAAAAEAAEA=</HashCode>
+      <FileName>Lang\AuthLangKey.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
