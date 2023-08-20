@@ -11,6 +11,7 @@ Run/Content/dbc*
 #Run/Content/Maps/*
 Run/Debug/*
 Run/Release/*
+build/
 TestResults/*
 Utilities/WCell.SolutionItems/bin/*
 Addons/.gitignore
