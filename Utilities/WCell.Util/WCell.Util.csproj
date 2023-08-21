@@ -2,6 +2,8 @@
   <PropertyGroup>
     <TargetFramework>net7.0-windows</TargetFramework>
     <OutputType>Library</OutputType>
+    <appendtargetframeworktooutputpath>false</appendtargetframeworktooutputpath>
+    <appendruntimeidentifiertooutputpath>false</appendruntimeidentifiertooutputpath>
     <AssemblyOriginatorKeyFile>WCell.Utils.Sign.snk</AssemblyOriginatorKeyFile>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
   </PropertyGroup>

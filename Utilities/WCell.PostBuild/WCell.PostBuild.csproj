@@ -2,6 +2,8 @@
   <PropertyGroup>
     <TargetFramework>net7.0-windows</TargetFramework>
     <OutputType>Exe</OutputType>
+    <appendtargetframeworktooutputpath>false</appendtargetframeworktooutputpath>
+    <appendruntimeidentifiertooutputpath>false</appendruntimeidentifiertooutputpath>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">

@@ -1,6 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>net7.0-windows</TargetFramework>
+    <appendtargetframeworktooutputpath>false</appendtargetframeworktooutputpath>
+    <appendruntimeidentifiertooutputpath>false</appendruntimeidentifiertooutputpath>
     <OutputType>Library</OutputType>
     <AssemblyOriginatorKeyFile>
     </AssemblyOriginatorKeyFile>

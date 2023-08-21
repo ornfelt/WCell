@@ -3,6 +3,8 @@
     <TargetFramework>net7.0-windows</TargetFramework>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <OutputType>Exe</OutputType>
+    <appendtargetframeworktooutputpath>false</appendtargetframeworktooutputpath>
+    <appendruntimeidentifiertooutputpath>false</appendruntimeidentifiertooutputpath>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
