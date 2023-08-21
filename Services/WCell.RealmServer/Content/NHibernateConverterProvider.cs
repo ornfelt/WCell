@@ -23,9 +23,9 @@ namespace WCell.RealmServer.Content
 
 		public object Read(IDataReader reader, int index)
 		{
-			//return m_Type.Get(reader, index);
+			return m_Type.Get(reader, index);
 			Console.WriteLine("READ CALLED");
-			return m_Type.Get(reader as System.Data.Common.DbDataReader, index, null);
+			//return m_Type.Get(reader as System.Data.Common.DbDataReader, index, null);
 		}
 	}
 

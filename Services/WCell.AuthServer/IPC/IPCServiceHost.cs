@@ -1,4 +1,4 @@
-/*************************************************************************
+﻿/*************************************************************************
  *
  *   file		: ServiceHost.cs
  *   copyright		: (C) The WCell Team
@@ -15,13 +15,18 @@
  *************************************************************************/
 
 using System;
-using System.ServiceModel;
+//using System.ServiceModel;
 using NLog;
 using WCell.Intercommunication;
 using resources = WCell.AuthServer.Res.WCell_AuthServer;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using CoreWCF;
+using CoreWCF.Configuration;
 
 namespace WCell.AuthServer.IPC
 {
@@ -33,111 +38,97 @@ namespace WCell.AuthServer.IPC
 		private static readonly Logger log = LogManager.GetCurrentClassLogger();
 
 		//private static ServiceHost host;
-		private static IHost host;
+		private static IHost _host;
 
-		public static bool IsOpen
-		{
-			//get { return host != null && host.State == CommunicationState.Opened; }
-			get { return host != null && host.Services.GetRequiredService<IWCellIntercomService>() != null; }
-		}
+        //public static bool IsOpen
+        //{
+		//	//get { return host != null && host.State == CommunicationState.Opened; }
+        //}
 
-		/// <summary>
-		/// Starts the authentication service
-		/// </summary>
-		//public static void StartService()
-		//{
-		//	if (!IsOpen)
-		//	{
-		//		StopService();		// make sure, there is no half-open connection pending
+		public static bool IsOpen => _host != null;
 
-		//		lock (typeof(IPCServiceHost))
-		//		{
-		//			host = new ServiceHost(typeof(IPCServiceAdapter));
-		//			var binding = new NetTcpBinding();
-		//			binding.Security.Mode = SecurityMode.None;
-
-		//			var endPoint = host.AddServiceEndpoint(
-		//				typeof(IWCellIntercomService),
-		//				binding,
-		//				AuthServerConfiguration.IPCAddress);
-
-		//			host.Open();
-
-		//			var addr = host.Description.Endpoints[0].ListenUri.AbsoluteUri;
-		//			log.Info(resources.IPCServiceStarted, addr);
-		//		}
-		//	}
-		//}
-		public static void StartService()
+        public static void StartService()
         {
-			Console.WriteLine("StartService CALLED");
             if (!IsOpen)
             {
-                StopService(); // make sure, there is no half-open connection pending
-
-                lock (typeof(IPCServiceHost))
-                {
-                    host = Host.CreateDefaultBuilder()
-                        .ConfigureServices(services =>
-                        {
-                            services.AddSingleton<IWCellIntercomService, IPCServiceAdapter>();
-                        })
-                        .ConfigureWebHostDefaults(webBuilder =>
-                        {
-                            webBuilder.UseUrls(AuthServerConfiguration.IPCAddress); // UseUrls to specify the endpoint address
-                            //webBuilder.UseStartup<Startup>(); // Specify the Startup class if needed
-                        })
-                        .Build();
-
-                    host.Start();
-
-                    var addr = AuthServerConfiguration.IPCAddress; // Make sure AuthServerConfiguration.IPCAddress is defined
-                    log.Info(resources.IPCServiceStarted, addr);
-                }
+                _host = CreateHostBuilder().Build();
+                _host.Start();
+                log.Info("IPC Service Started");
             }
         }
 
-		/// <summary>
-		/// Stops the service.
-		/// </summary>
-		//public static void StopService()
-		//{
-		//	lock (typeof(IPCServiceHost))
-		//	{
-		//		if (host != null && host.State != CommunicationState.Closed && host.State != CommunicationState.Faulted)
-		//		{
-		//			try
-		//			{
-		//				host.Close();
-		//			}
-		//			catch (Exception)
-		//			{
-		//				// do nada
-		//			}
-		//			log.Info(resources.IPCServiceShutdown);
-		//		}
+        //public static IHostBuilder CreateHostBuilder() =>
+        //    Host.CreateDefaultBuilder()
+        //        .ConfigureServices((hostContext, services) =>
+        //        {
+        //            services.AddServiceModelServices();
+        //            services.Configure<ServiceHostBuilderOptions>(options =>
+        //            {
+        //                options.BaseAddresses.Add(new Uri(AuthServerConfiguration.IPCAddress));
+        //            });
+        //        })
+        //        .UseServiceModel(hostContext =>
+        //        {
+        //            var binding = new CoreWCF.NetTcpBinding(CoreWCF.SecurityMode.None);
+        //            hostContext.AddService<IPCServiceAdapter>()
+        //                       .AddEndpoint<IWCellIntercomService>(binding, "");
+        //        });
 
-		//		host = null;
-		//	}
-		//}
-		public static void StopService()
+        //public static IHostBuilder CreateHostBuilder() =>
+        //    Host.CreateDefaultBuilder()
+        //        .ConfigureServices((hostContext, services) =>
+        //        {
+        //            services.AddServiceModelServices();
+        //            //services.AddServiceEndpoint<IWCellIntercomService, IPCServiceAdapter>(new NetTcpBinding(CoreWCF.SecurityMode.None), AuthServerConfiguration.IPCAddress);
+        //            //services.AddServiceEndpoint<IPCServiceAdapter, IWCellIntercomService>(new CoreWCF.NetTcpBinding(), AuthServerConfiguration.IPCAddress);
+
+        //            //services.Configure<ServiceHostOptions>(options =>
+        //            //{
+        //            //    options.ConfigureServiceHostBase<IWCellIntercomService>(serviceHost =>
+        //            //    {
+        //            //        var binding = new NetTcpBinding(System.ServiceModel.SecurityMode.None);
+        //            //        serviceHost.AddServiceEndpoint<IWCellIntercomService>(binding, AuthServerConfiguration.IPCAddress);
+        //            //    });
+        //            //});
+        //        });
+
+        public static void ConfigureServices(IServiceCollection services)
         {
-            lock (typeof(IPCServiceHost))
-            {
-                if (host != null && host.Services.GetRequiredService<IWCellIntercomService>() != null)
-                {
-                    try
-                    {
-                        host.StopAsync().GetAwaiter().GetResult();
-                    }
-                    catch (Exception)
-                    {
-                        // do nothing
-                    }
-                    log.Info(resources.IPCServiceShutdown);
-                }
+            services.AddServiceModelServices();
+        }
 
-                host = null;
+        //public static void Configure(IApplicationBuilder app, Microsoft.Extensions.Hosting.IHostingEnvironment env)
+        public static void Configure(IApplicationBuilder app, IHostEnvironment env)
+        {
+            app.UseServiceModel(builder =>
+            {
+                builder.AddService<IPCServiceAdapter>();
+                builder.AddServiceEndpoint<IPCServiceAdapter, IWCellIntercomService>(new CoreWCF.NetTcpBinding(), AuthServerConfiguration.IPCAddress);
+            });
+        }
+
+        //public static IHostBuilder CreateHostBuilder() =>
+        //    Host.CreateDefaultBuilder()
+        //        .ConfigureServices((hostContext, services) =>
+        //        {
+        //            services.AddServiceModelServices();
+        //        })
+        //        .ConfigureWCF(serviceHost =>
+        //        {
+        //            var binding = new NetTcpBinding(System.ServiceModel.SecurityMode.None);
+        //            serviceHost.AddService<IPCServiceAdapter>();
+        //            serviceHost.AddServiceEndpoint<IPCServiceAdapter, IWCellIntercomService>(binding, AuthServerConfiguration.IPCAddress);
+        //        });
+
+        public static void StopService()
+        {
+            if (IsOpen)
+            {
+                _host.StopAsync().Wait();
+                _host.Dispose();
+                _host = null;
+
+                log.Info("IPC Service Shutdown");
             }
         }
 	}
