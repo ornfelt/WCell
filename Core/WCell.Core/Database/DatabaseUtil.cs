@@ -103,7 +103,10 @@ namespace WCell.Core.Database
 		{
 			get
 			{
+				Console.WriteLine("EH??");
 				var sess = Session;
+				Console.WriteLine("Returning: " + sess != null + sess.IsConnected);
+				Console.WriteLine("Returning: " + sess.IsConnected);
 				return sess != null && sess.IsConnected;
 			}
 		}
@@ -243,9 +246,11 @@ namespace WCell.Core.Database
 			ActiveRecordStarter.Initialize(asm, s_config);
 			if (!IsConnected)
 			{
+                Console.WriteLine("InitAR 5! ");
 				throw new Exception(string.Format("Failed to connect to Database."));
 			}
 
+                Console.WriteLine("InitAR 6! ");
 			s_dialect = Dialect.GetDialect(Config.Properties) ?? Dialect.GetDialect();
 
 			return true;

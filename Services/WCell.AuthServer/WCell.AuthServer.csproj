@@ -87,8 +87,11 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Castle.Activerecord" Version="3.0.0.1" />
+    <PackageReference Include="CoreWCF.ConfigurationManager" Version="1.3.2" />
+    <PackageReference Include="CoreWCF.Http" Version="1.3.2" />
     <PackageReference Include="CoreWCF.NetTcp" Version="1.3.2" />
     <PackageReference Include="CoreWCF.Primitives" Version="1.3.2" />
+    <PackageReference Include="CoreWCF.WebHttp" Version="1.3.2" />
     <PackageReference Include="Microsoft.Extensions.Hosting" Version="7.0.1" />
     <PackageReference Include="System.ServiceModel.Primitives" Version="6.0.0" />
     <PackageReference Include="System.ServiceModel.Http" Version="6.0.0" />

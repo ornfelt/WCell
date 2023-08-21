@@ -45,7 +45,6 @@ namespace WCell.AuthServer.Database
 				DatabaseUtil.InitAR(asm);
 			}
 
-
 			// create tables if not already existing
 			var count = 0;
 			try
