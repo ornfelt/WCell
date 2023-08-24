@@ -92,7 +92,7 @@ namespace WCell.Util.DynamicAccess
 			//
 			//var asm = Thread.GetDomain().DefineDynamicAssembly(assemblyName, AssemblyBuilderAccess.Run);
 			//AssemblyBuilder assemblyBuilder = AssemblyBuilder.DefineDynamicAssembly(assemblyName, AssemblyBuilderAccess.RunAndCollect);
-			Console.WriteLine("XXXXXXXXDOes this run?");
+			Console.WriteLine("CreateModule called");
 			AssemblyBuilder asm = AssemblyBuilder.DefineDynamicAssembly(assemblyName, AssemblyBuilderAccess.Run);
 			return asm.DefineDynamicModule("Module");
 		}

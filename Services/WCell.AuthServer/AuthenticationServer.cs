@@ -30,6 +30,7 @@ using WCell.Intercommunication.DataTypes;
 using WCell.Util.Collections;
 using WCell.Util.Variables;
 using resources = WCell.AuthServer.Res.WCell_AuthServer;
+using CoreWCF;
 
 namespace WCell.AuthServer
 {
@@ -384,8 +385,7 @@ namespace WCell.AuthServer
 					IPCServiceHost.StartService();
 			Console.WriteLine("Start4 CALLED");
 				}
-				//catch (AddressAlreadyInUseException)
-				catch (System.ServiceModel.FaultException)
+				catch (AddressAlreadyInUseException)
 				{
 			Console.WriteLine("Start5 CALLED");
 					Log.Fatal(resources.AuthServiceAlreadyListening);
