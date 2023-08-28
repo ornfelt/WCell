@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "WCell.PacketAnalyzer": {
+      "commandName": "Project",
+      "workingDirectory": "D:\\My files\\svea_laptop\\code_hdd\\WCell\\Run\\Debug"
+    }
+  }
+}
